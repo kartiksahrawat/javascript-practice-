@@ -1,0 +1,221 @@
+Conditional statement questions
+💻 Question 1 — Electricity Bill
+
+Take the number of units from the user.
+
+Billing:
+
+0–100 → ₹5/unit
+101–200 → ₹7/unit
+201–500 → ₹10/unit
+Above 500 → ₹15/unit
+
+If the bill is more than ₹3000, give a 10% discount.
+
+Print:
+
+Unit Rate
+Total Bill
+Discount (if applicable)
+Final Bill
+
+
+
+💻 Question 2 — Bank Loan Eligibility
+
+Take input:
+
+Age
+Monthly Salary
+Credit Score
+
+Rules:
+
+Age must be at least 21
+Salary must be at least ₹30,000
+Credit Score:
+750+ → Premium Loan
+650–749 → Standard Loan
+Below 650 → Loan Rejected
+
+Print the final result.
+
+
+💻 Question 3 — Movie Ticket Booking
+
+Take input:
+
+Age
+Day (Weekday or Weekend)
+VIP Member (true/false)
+
+Ticket Price:
+
+Child (<12) → ₹100
+Adult → ₹200
+Senior Citizen (60+) → ₹120
+
+Weekend surcharge = +₹50
+
+VIP Discount = ₹30
+
+Print Final Ticket Price.
+
+
+💻 Question 4 — Employee Bonus
+
+Take input:
+
+Years of Experience
+Performance Rating (1–5)
+
+Rules:
+
+Experience <2 → No Bonus
+2–5 years
+Rating ≥4 → ₹10,000
+Otherwise → ₹5,000
+Above 5 years
+Rating 5 → ₹25,000
+Rating 4 → ₹18,000
+Otherwise → ₹12,000
+
+
+💻 Question 5 — Cab Booking (Advanced Version)
+
+Take input:
+
+Passengers
+Distance
+Peak Hour (true/false)
+Luxury Ride (true/false)
+
+Cab:
+
+≤2 → Mini (₹10/km)
+≤4 → Sedan (₹15/km)
+≤6 → SUV (₹20/km)
+
+Charges:
+
+Peak Hour → +₹100
+Luxury Ride → +20% of fare
+
+Print:
+
+Cab Type
+Base Fare
+Extra Charges
+Final Fare
+
+
+💻 Question 6 — Student Scholarship
+
+Take input:
+
+Marks
+Family Income
+Sports Quota (true/false)
+
+Rules:
+
+Marks ≥90 & Income <₹5L → 100%
+Marks ≥80 & Income <₹8L → 50%
+Sports Quota → 25%
+Otherwise → No Scholarship
+
+Print Scholarship Percentage.
+
+
+💻 Question 7 — Hotel Booking
+
+Take input:
+
+Number of Days
+Room Type
+
+Room Rates:
+
+Standard → ₹2000/day
+Deluxe → ₹3500/day
+Suite → ₹6000/day
+
+If days >5
+
+Standard → 5% Discount
+Deluxe → 10%
+Suite → 15%
+
+Print Total Amount.
+
+
+💻 Question 8 — Online Shopping
+
+Take input:
+
+Cart Value
+Prime Member (true/false)
+
+Discount:
+
+₹5000+ → 20%
+₹3000+ → 10%
+₹1000+ → 5%
+
+Prime Member:
+
+Extra 5% Discount
+
+Shipping:
+
+Free if final amount >₹2000
+Otherwise ₹100
+
+Print Final Payable Amount.
+
+
+💻 Question 9 — Fitness Membership
+
+Take input:
+
+Age
+Student (true/false)
+Membership Type
+
+Membership:
+
+Basic → ₹1000
+Premium → ₹2000
+Elite → ₹3500
+
+Discount:
+
+Student → 15%
+Age >60 → 20%
+
+Print Final Amount.
+
+
+💻 Question 10 — University Admission (🔥 Hardest)
+
+Take input:
+
+PCM Percentage
+Entrance Exam Marks
+Sports Quota
+Annual Family Income
+
+Rules:
+
+PCM must be at least 75%.
+Entrance Marks:
+90+ → Direct Admission
+80–89 → Counseling
+Below 80 → Rejected
+If Sports Quota is true, eligible for counseling even if entrance is 70–79.
+If family income is below ₹4L and admission is confirmed, give a 50% scholarship.
+
+Print:
+
+Admission Status
+Scholarship Status

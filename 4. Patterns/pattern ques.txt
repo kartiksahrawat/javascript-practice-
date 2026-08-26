@@ -1,0 +1,211 @@
+Q1. Solid Square
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+
+Q2. Number Square
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+
+Q3. Same Number Square
+1 1 1 1 1
+2 2 2 2 2
+3 3 3 3 3
+4 4 4 4 4
+5 5 5 5 5
+
+
+Q4. Increasing Triangle
+*
+* *
+* * *
+* * * *
+* * * * *
+
+
+Q5. Decreasing Triangle
+* * * * *
+* * * *
+* * *
+* *
+*
+
+
+Q6. Increasing Number Triangle
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+
+Q7. Continuous Number Triangle
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+
+Q8. Row Number Triangle
+1
+2 2
+3 3 3
+4 4 4 4
+5 5 5 5 5
+
+
+Q9. Reverse Number Triangle
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+
+
+Q10. 0–1 Triangle 🔥
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+
+
+Q11. Right-Aligned Triangle
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+
+
+Q12. Right-Aligned Number Triangle
+        1
+      1 2
+    1 2 3
+  1 2 3 4
+1 2 3 4 5
+
+
+Q13. Inverted Right-Aligned Triangle
+* * * * *
+  * * * *
+    * * *
+      * *
+        *
+
+
+Q14. Number Staircase
+        1
+      2 2
+    3 3 3
+  4 4 4 4
+5 5 5 5 5
+
+
+Q15. Hollow Square
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
+
+
+Q16. Hollow Rectangle
+
+Rows = 4, Columns = 7
+
+* * * * * * *
+*           *
+*           *
+* * * * * * *
+
+
+Q17. Hollow Triangle
+*
+* *
+*   *
+*     *
+* * * * *
+
+
+Q18. Inverted Hollow Triangle
+* * * * *
+*     *
+*   *
+* *
+*
+
+
+Q19. Pyramid
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+
+
+Q20. Inverted Pyramid
+* * * * * * * * *
+  * * * * * * *
+    * * * * *
+      * * *
+        *
+
+
+Q21. Diamond 💎
+        *
+      * * *
+    * * * * *
+  * * * * * * *
+* * * * * * * * *
+  * * * * * * *
+    * * * * *
+      * * *
+        *
+
+
+Q22. Number Pyramid
+        1
+      1 2 1
+    1 2 3 2 1
+  1 2 3 4 3 2 1
+1 2 3 4 5 4 3 2 1
+
+
+Q23. Butterfly
+*       *
+**     **
+***   ***
+*********
+***   ***
+**     **
+*       *
+
+
+Q24. Hollow Diamond
+        *
+      *   *
+    *       *
+  *           *
+*               *
+  *           *
+    *       *
+      *   *
+        *
+
+
+Q25. Pascal-Type Number Pattern 🔥
+        1
+       121
+      12321
+     1234321
+    123454321
+
