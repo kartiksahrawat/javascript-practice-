@@ -1,0 +1,52 @@
+Q1. Print 1 to N. Take N from user. ✅
+
+Q2. Print N to 1 ✅
+
+Q3. Print Even Numbers 1 to N.✅
+
+Q4. Print Odd Numbers 1 to N.✅
+
+Q5. Multiplication Table( user se input lo kis ka table likhna hai)✅
+
+Q6. Sum 1 to N✅
+
+Q7. Count Even Numbers 1 to n✅
+
+Q8. Sum of Even Numbers 1 to n✅
+
+Q9. Count Numbers Divisible by 3 1 to n✅
+
+Q10. Find the Largest Number(user kuch nos dega) also smallest ❌❌❌
+
+Q11. Count Positive, Negative n Zero (User se N lo)✅practice
+
+Q12. Reverse a Number ✅practice
+
+Q13. Sum of Digits✅
+
+Q14. Count Digits✅
+
+Q15. Check Palindrome Number✅practice
+
+Q16. Factorial✅
+
+Q17. Print Factors✅
+
+Q18. Count Factors✅
+
+Q19. Prime Number (prime no hai yaa nhi)✅practice
+
+Q20. Print Prime Numbers 1 to N (n user se lo)❌❌❌logic ni aaya smjh
+
+Q21. Fibonacci Series (First N Fibonacci numbers print karo)
+
+Q22. Find Second Largest Number
+
+Q23. Strong Number (A number is a Strong Number if the sum of factorials of its digits equals the original number, try 145 and 123)
+
+Q24. Armstrong Number
+
+Q25 — Check Perfect Number
+
+
+
