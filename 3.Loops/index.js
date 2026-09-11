@@ -179,35 +179,36 @@
 // }------- worong solution 
 // let num = Number(prompt('enter ur nu-'))
 // let isprime = true
-// for(let i=2; i<num; i++){
-//     if(num%i==0){
-//         isprime = false
-//         break
+// if(num <=1){
+//     isprime = false
+// }else{
+//     for(let i=2; i<num; i++){
+//         if(num%i==0){
+//             isprime = false
+//             break
+//         }
 //     }
 // }
 // if(isprime){
 //     console.log(`yes ${num} is a prime no`);
 // }else{
-//     console.log(`no ${num} is not a prime no`);
+//     console.log(`no ${num} isn't a prime no`)
 // }
 
 // Q20. Print Prime Numbers 1 to N (n user se lo)
-// let n = Number(prompt("Enter N:"));
-// for(let num = 2; num <= n; num++){
+// let num = Number(prompt("Enter N:"));
+// for(let i = 2; i <= num; i++){
 //     let isPrime = true;
-//     for(let i = 2; i < num; i++){
-//         if(num % i == 0){
+//     for(let j = 2; j < i; j++){
+//         if(i % j == 0){
 //             isPrime = false;
 //             break;
 //         }
 //     }
 //     if(isPrime){
-//         console.log(num);
+//         console.log(i);
 //     }
 // }
-
-
-
 
 
 

@@ -36,9 +36,9 @@ Q18. Count Factors✅
 
 Q19. Prime Number (prime no hai yaa nhi)✅practice
 
-Q20. Print Prime Numbers 1 to N (n user se lo)❌❌❌logic ni aaya smjh
+Q20. Print Prime Numbers 1 to N (n user se lo)✅practice
 
-Q21. Fibonacci Series (First N Fibonacci numbers print karo)
+Q21. Fibonacci Series (First N Fibonacci numbers print karo) 
 
 Q22. Find Second Largest Number
 
@@ -47,6 +47,5 @@ Q23. Strong Number (A number is a Strong Number if the sum of factorials of its 
 Q24. Armstrong Number
 
 Q25 — Check Perfect Number
-
 
 
