@@ -16,7 +16,7 @@ Q8. Sum of Even Numbers 1 to n✅
 
 Q9. Count Numbers Divisible by 3 1 to n✅
 
-Q10. Find the Largest Number(user kuch nos dega) also smallest ❌❌❌
+Q10. Find the Largest Number(user kuch nos dega) also smallest❌❌❌
 
 Q11. Count Positive, Negative n Zero (User se N lo)✅practice
 
@@ -38,14 +38,14 @@ Q19. Prime Number (prime no hai yaa nhi)✅practice
 
 Q20. Print Prime Numbers 1 to N (n user se lo)✅practice
 
-Q21. Fibonacci Series (First N Fibonacci numbers print karo) 
+Q21. Fibonacci Series (First N Fibonacci numbers print karo)✅practice
 
-Q22. Find Second Largest Number
+Q22. Find Second Largest Number❌❌❌+
+ 
+Q23. Strong Number ✅practice
 
-Q23. Strong Number (A number is a Strong Number if the sum of factorials of its digits equals the original number, try 145 and 123)
+Q24. Armstrong Number ✅practice
 
-Q24. Armstrong Number
-
-Q25 — Check Perfect Number
+Q25. Check Perfect Number ✅practice
 
 
