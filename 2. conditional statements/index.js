@@ -288,25 +288,179 @@
 //     console.log("Admission Rejected");
 // }
 
+// ***************** Some Extra questions *****************
 
-let units = Number(prompt("Enter ur units-"))
+// Q1.
+// let num = Number(prompt("Enter a number:-"))
+// if(num>0){
+//     console.log("Positive Number");
+// }else if(num<0){
+//     console.log("Negative Number");
+// }else{
+//     console.log("Zero");
+// }
+
+// Q2.
+// let num = Number(prompt("Enter a number:-"))
+// if(num%2==0){
+//     console.log("Even Number");
+// }else{
+//     console.log("Odd Number");
+// }
+
+// Q3.
+// let num1 = Number(prompt("Enter 1st number:-"))
+// let num2 = Number(prompt("Enter 2nd number:-"))
+// let num3 = Number(prompt("Enter 3rd number:-"))
+// if(num1>num2 && num1>num3){
+//     console.log("Largest Number:-", num1);
+// }else if(num2>num1 && num2>num3){
+//     console.log("Largest Number:-", num2);
+// }else if(num3>num1 && num3>num2){
+//     console.log("Largest Number:-", num3);
+// }
+
+// Q4.
+// let num1 = Number(prompt("Enter 1st number:-"))
+// let num2 = Number(prompt("Enter 2nd number:-"))
+// let num3 = Number(prompt("Enter 3rd number:-"))
+// if(num1<num2 && num1<num3){
+//     console.log("Smallest Number:-", num1);
+// }else if(num2<num1 && num2<num3){
+//     console.log("Smallest Number:-", num2);
+// }else if(num3<num1 && num3<num2){
+//     console.log("Smallest Number:-", num3);
+// }
+
+// Q5.
+// let year = Number(prompt("Enter a year:-"))
+// if(year%4==0){
+//     console.log("Leap Year");
+// }else{
+//     console.log("Not a Leap Year");
+// }
+
+// Q6.
+// let age = Number(prompt("Enter ur age:-"))
+// if(age>=18){
+//     console.log("Eligible to vote");
+// }else{
+//     console.log("Not Eligible to vote");
+// }
+
+// Q7.
+// let num = Number(prompt("Enter a number:-"))
+// if(num%3==0 && num%5==0){
+//     console.log("Divisible by both 3 and 5");
+// }else if(num%3==0){
+//     console.log("Divisible by 3");
+// }else if(num%5==0){
+//     console.log("Divisible by 5");
+// }else{
+//     console.log("Not Divisible by 3 or 5");
+// }
+
+// Q8.
+// let marks = Number(prompt("Enter ur marks:-"))
+// if(marks>=90){
+//     console.log("Grade:- A");
+// }else if(marks>=80){
+//     console.log("Grade:- B");
+// }else if(marks>=70){
+//     console.log("Grade:- C");
+// }else if(marks>=60){
+//     console.log("Grade:- D");
+// }else{
+//     console.log("Grade:- F");
+// }
+
+// Q9.
+// let attendance = Number(prompt("Enter ur attendance percentage:-"))
+// let isFeePaid = true
+// if(attendance>=75 && isFeePaid){
+//     console.log("Eligible to appear for exam");
+// }else{
+//     console.log("Not Eligible to appear for exam");
+// }
+
+// Q10.
+// let username = "admin"
+// let password = "12345"
+// if(username == "admin" && password == "12345"){
+//     console.log("Login Successful");
+// }else{
+//     console.log("Login Failed");
+// }
+
+//Q11.
+// let amount = Number(prompt("Enter amount:-"))
+// if(amount>=5000){
+//     console.log("Discount:-", amount*0.2);
+//     amount -= amount*0.2
+// }else if(amount>=3000){
+//     console.log("Discount:-", amount*0.15);
+//     amount -= amount*0.15
+// }else if(amount>=1000){
+//     console.log("Discount:-", amount*0.1);
+//     amount -= amount*0.1
+// }else{
+//     console.log("No Discount Applicable");
+// }
+// console.log("Final Amount:-", amount)
+
+//Q12.
+// let age = Number(prompt("Enter ur age:-"))
+// if(age>=60){
+//     console.log("senior citizen");
+// }else if(age>=20){
+//     console.log("adult");
+// }else if(age>=13){
+//     console.log("teenager");
+// }else if(age>=0){
+//     console.log("child");
+// }
+
+//Q13.
+// let a = Number(prompt("Enter side 1:"));
+// let b = Number(prompt("Enter side 2:"));
+// let c = Number(prompt("Enter side 3:"));
+
+// if (a + b > c && a + c > b && b + c > a) {
+//     console.log("Valid Triangle");
+// } else {
+//     console.log("Invalid Triangle");
+// }
+
+//Q14.
+// let a = Number(prompt("Enter side 1:"));
+// let b = Number(prompt("Enter side 2:"));
+// let c = Number(prompt("Enter side 3:"));
+
+// if (a + b > c && a + c > b && b + c > a) {
+//     console.log("Valid Triangle")
+//     if (a === b && b === c) {
+//         console.log("Equilateral Triangle");
+//     } else if (a === b || b === c || a === c) {
+//         console.log("Isosceles Triangle");
+//     }else {
+//         console.log("Scalene Triangle");
+//     }
+// } else {
+//     console.log("Invalid Triangle");
+// }
+
+//Q15. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+//Q16.
+let units = Number(prompt("Enter units consumed:-"))
 let bill;
-if( units <=100){
-    console.log("Unit Rate-", units*5)
-    bill = units*5
-}else if(units <= 200){
-    console.log("Unit rate-", units*7)
-    bill = units*7
-}else if(units <= 500){
-    console.log("Unit rate-", units*10)
-    bill = units*10
-}else if(units > 500){
-    console.log("Unit rate-", units*15)
-    bill = units*15
+if(units<=100){
+    bill= units*5;
+}else if(units<=200){
+    bill= units*7;
+}else if(units<=300){
+    bill= units*10;
+} else{
+    bill= units*12;
 }
- if(bill >= 3000){
-    console.log("Discount-", bill*0.1)
-    console.log("Final Bill-", bill-(bill*0.1));
- }else{
-    console.log("Final Bill-", bill);
- }
+console.log("Bill:-", bill);
