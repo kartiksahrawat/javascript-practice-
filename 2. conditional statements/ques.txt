@@ -267,47 +267,44 @@ Take three sides and determine whether the triangle is Equilateral, Isosceles, o
 Q15. Vowel or Consonant
 Take one character and check whether it is a vowel or consonant. Handle invalid characters too.
 
-Q16. Electricity Bill
-Take units consumed and calculate the bill: first 100 units ₹5/unit, next 100 ₹7/unit, next 200 ₹10/unit, above 400 ₹12/unit.
-
-Q17. Second Largest of Three
+Q16. Second Largest of Three
 Take three numbers and find the second largest number. Handle equal numbers appropriately.
 
-Q18. Number in Range
+Q17. Number in Range
 Take a number, lower limit, and upper limit. Check whether the number lies between the limits (inclusive).
 
-Q19. Password Validation
+Q18. Password Validation
 Take a password and check whether it has at least 8 characters, one uppercase, one lowercase, and one digit.
 
-Q20. Admission Eligibility
+Q19. Exam Eligibility
 Take age, marks, and attendance. Student is eligible if age >= 18, marks >= 60, and attendance >= 75%.
 
-Q21. Employee Bonus
+Q20. Employee Bonus
 Take salary and years of experience. Bonus = 20% for >=10 years, 10% for >=5 years, otherwise 5%. Print bonus and final salary.
 
-Q22. Loan Eligibility
+Q21. Loan Eligibility
 Take age, monthly salary, and employment status. Eligible if age is 21–60, salary >= ₹30,000, and status is "employed".
 
-Q23. Income Tax
+Q22. Income Tax
 Take annual income. Tax = 0% for <= ₹2.5L, 5% for ₹2.5L–₹5L, 20% for ₹5L–₹10L, and 30% above ₹10L.
 
-Q24. ATM Withdrawal
+Q23. ATM Withdrawal
 Take PIN, balance, and withdrawal amount. Allow withdrawal only if PIN = 1234, amount > 0, and amount <= balance. Print remaining balance.
 
-Q25. Multiple of 7 or 11
+Q24. Multiple of 7 or 11
 Take a number and check whether it is a multiple of both 7 and 11, only 7, only 11, or neither.
 
-Q26. Shipping Charges
+Q25. Shipping Charges
 Take order amount and membership status. Shipping is free if amount >= ₹2000 OR membership is "Premium"; otherwise shipping = ₹100. Print final amount.
 
-Q27. Greatest Among Four
+Q26. Greatest Among Four
 Take four numbers and find the greatest number using conditional/nested conditions.
 
-Q28. Valid Date
+Q27. Valid Date
 Take day, month, and year and check whether the date is valid. Consider month days and leap year February (28/29 days).
 
-Q29. Movie Ticket Price
+Q28. Movie Ticket Price
 Take age and day. Price: below 12 = ₹100, 12–59 = ₹200, 60+ = ₹120. Add ₹50 on Saturday/Sunday.
 
-Q30. Employee Promotion
+Q29. Employee Promotion
 Take performance rating, attendance, and experience. Employee qualifies if rating >= 4, attendance >= 90%, and experience >= 3 years.

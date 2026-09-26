@@ -451,16 +451,141 @@
 
 //Q15. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-//Q16.
-let units = Number(prompt("Enter units consumed:-"))
-let bill;
-if(units<=100){
-    bill= units*5;
-}else if(units<=200){
-    bill= units*7;
-}else if(units<=300){
-    bill= units*10;
-} else{
-    bill= units*12;
-}
-console.log("Bill:-", bill);
+//Q16.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+//Q17.
+// let num = Number(prompt("Enter a number:-"))
+// let lowerLimit = Number(prompt("Enter lower limit:-"))
+// let upperLimit = Number(prompt("Enter upper limit:-"))
+// if(num>=lowerLimit && num<=upperLimit){
+//     console.log("Number is within the range");
+// }else{
+//     console.log("Number is outside the range");
+// }
+
+//Q18.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+//Q19.
+// let age = Number(prompt("Enter ur age:-"))
+// let marks = Number(prompt("Enter ur marks:-"))
+// let attendance = Number(prompt("Enter ur attendance percentage:-"))
+// if(age>=18 && marks>=60 && attendance>=75){
+//     console.log("Eligible for exam");
+// }else{
+//     console.log("Not Eligible for exam");
+// }
+
+//20.
+// let salary = Number(prompt("Enter ur salary:-"))
+// let exp = Number(prompt("Enter ur experience in years:-"))
+// let bonus = 0
+// if(exp>=10){
+//     bonus = salary*0.2
+// }else if(exp>=5){
+//     bonus = salary*0.1
+// }else {
+//     bonus = salary*0.05
+// }
+// console.log("Bonus Amount:-", bonus)
+// console.log("Total Salary with Bonus:-", salary+bonus)
+
+//21.
+// let age = Number(prompt("Enter ur age:-"))
+// let salary = Number(prompt("Enter ur salary:-"))
+// let isEmployed = true
+// if(age>=21 && age<=60 && salary>=30000 && isEmployed){
+//     console.log("Eligible for loan");
+// }else{
+//     console.log("Not Eligible for loan");
+// }
+
+//22.
+// let annualIncome = Number(prompt("Enter ur annual income:-"))
+// let taxRate;
+// if(annualIncome<=250000){
+//     taxRate = 0
+// }else if(annualIncome<=500000){
+//     taxRate = 0.05
+// }else if(annualIncome<=1000000){
+//     taxRate = 0.2
+// }else{
+//     taxRate = 0.3
+// }
+// console.log("Tax to be paid:-", annualIncome*taxRate)
+
+//23.
+// let PIN = 1234
+// let balance = Number(prompt("Enter ur balance:-"))
+// let amount = Number(prompt("Enter amount to withdraw:-"))
+// let enteredPIN = Number(prompt("Enter ur PIN:-"))
+// if(enteredPIN == PIN){
+//     if(amount > 0 && amount<=balance){
+//         console.log("Withdrawal Successful");
+//         balance -= amount
+//         console.log("Remaining Balance:-", balance);
+//     }else{
+//         console.log("Insufficient Balance");
+//     }
+// }else{
+//     console.log("Incorrect PIN");
+// }
+
+
+//24.
+// let num = Number(prompt("Enter a number:-"))
+// if(num%7==0 && num%11==0){ 
+//     console.log("Divisible by both 7 and 11");
+// }else if(num%7==0){
+//     console.log("Divisible by 7");
+// }else if(num%11==0){
+//     console.log("Divisible by 11");
+// }else{
+//     console.log("Not Divisible by 7 or 11");
+// }
+
+//25. 
+// let amount = Number(prompt("Enter amount:-"))
+// let isMembershipPremium = true
+// if(amount>=2000 || isMembershipPremium){
+//     console.log("Eligible for free shipping");
+// }else{
+//     console.log("Shipping charges--", 100);
+//     console.log("Final Amount:-", amount+100);
+// }
+
+//26.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+//27.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+//28.
+// let age = Number(prompt("Enter ur age:-"))
+// let day = prompt("Enter day prefrence:-")
+// let price;
+// if(age>=60){
+//     price= 120
+// }else if(age>=12){
+//     price = 200
+// }else {
+//     price = 100
+// }
+// if(day == "saturday" || day == "sunday"){
+//     console.log("Base Price:", price);
+//     console.log("weekend subcharges:-", 50)
+//     console.log("Final Price:-", price+=50);
+// }else{
+//     console.log("Final Price:", price);
+// }
+
+//29.
+// let rating = Number(prompt("Enter ur rating (1-5):-"))
+// let attendance = Number(prompt("Enter ur attendance percentage:-"))
+// let exp = Number(prompt("Enter ur experience in years:-"))
+// if(rating>=4){
+//     if(attendance>=90 && exp>=3){
+//         console.log("Eligible for promotion");
+//     }else{
+//         console.log("Not Eligible for promotion");
+//     }
+// }else{
+//     console.log("Not Eligible for promotion");
+// }
