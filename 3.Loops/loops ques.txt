@@ -102,7 +102,7 @@ let arr = [12, 45, 7, 89, 23, 56];
 
 23. Find the *sum of all elements* in an array using a single for loop.
 
-24. Print all elements of an array in *reverse order* using a single for loop.
+24. Print all elements of an array in *reverse order* using a single for loop.✅practice
 
 25. Count how many times a given number occurs in an array using a single for loop.
 

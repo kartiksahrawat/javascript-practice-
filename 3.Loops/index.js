@@ -392,7 +392,6 @@
 //     num++
 // }
 
-
 //Q13.
 // let num = 1
 // while(num <=20){
@@ -447,7 +446,7 @@
 // let num = 1
 // let count = 0
 // while(num<=100){
-//     if(num%3==0 && num%5==0){
+//     if(num%3==0 && num%5!=0){
 //         count++
 //     }
 //     num++
@@ -475,3 +474,79 @@
 // console.log(smallest);
 
 //Q21.
+// let arr = [12, 45, 7, 89, 23, 56]
+// let count = 0
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i]%2==0){
+//         count++
+//     }
+// }
+// console.log(count);
+
+//Q22.
+// let arr = [12, 45, 7, 89, 23, 56]
+// let count = 0
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i]%2!=0){
+//         count++
+//     }
+// }
+// console.log(count);
+
+//Q23.
+// let arr = [12, 45, 7, 89, 23, 56]
+// let sum = 0
+// for(let i=0; i<arr.length; i++){
+//     sum += arr[i]
+// }
+// console.log(sum);
+
+//Q24.
+// let arr = [12, 45, 7, 89, 23, 56]
+// let arr2 = []
+// for(let i=0; i<arr.length; i++){
+//     arr2[arr.length-1-i] = arr[i]
+// }
+// console.log(arr2);
+//or
+// let arr = [12, 45, 7, 89, 23, 56]
+// for(let i=arr.length-1; i>=0; i--){
+//     console.log(arr[i]);
+// }
+
+//Q25.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+//Q26.
+// let num = 18022005
+// let sum = 0
+// while(num>0){
+//     let rem = num%10
+//     sum += rem
+//     num = parseInt(num/10)
+// }
+// console.log(sum);
+
+//Q27.
+// let num = 18022006
+// let count = 0
+// while(num>0){
+//     let rem = num%10
+//     count++
+//     num = parseInt(num/10)
+// }
+// console.log(count);
+
+//Q28.
+// let num = 1809864447789
+// let largest = 0
+// while(num>0){
+//     let rem = num%10
+//     if(rem > largest){
+//         largest = rem
+//     }
+//     num = parseInt(num/10)
+// }
+// console.log(largest);
+
+
+
