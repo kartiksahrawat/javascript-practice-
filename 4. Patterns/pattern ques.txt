@@ -1,4 +1,4 @@
-Q1. Solid Square
+Q1. Solid Square ✅✅✅
 * * * * *
 * * * * *
 * * * * *
@@ -6,7 +6,7 @@ Q1. Solid Square
 * * * * *
 
 
-Q2. Number Square
+Q2. Number Square ✅✅✅
 1 2 3 4 5
 1 2 3 4 5
 1 2 3 4 5
@@ -14,7 +14,7 @@ Q2. Number Square
 1 2 3 4 5
 
 
-Q3. Same Number Square
+Q3. Same Number Square ✅✅✅
 1 1 1 1 1
 2 2 2 2 2
 3 3 3 3 3
@@ -22,7 +22,7 @@ Q3. Same Number Square
 5 5 5 5 5
 
 
-Q4. Increasing Triangle
+Q4. Increasing Triangle ✅✅✅
 *
 * *
 * * *
@@ -30,7 +30,7 @@ Q4. Increasing Triangle
 * * * * *
 
 
-Q5. Decreasing Triangle
+Q5. Decreasing Triangle ✅✅✅
 * * * * *
 * * * *
 * * *
@@ -38,7 +38,7 @@ Q5. Decreasing Triangle
 *
 
 
-Q6. Increasing Number Triangle
+Q6. Increasing Number Triangle ✅✅✅
 1
 1 2
 1 2 3
@@ -46,7 +46,7 @@ Q6. Increasing Number Triangle
 1 2 3 4 5
 
 
-Q7. Continuous Number Triangle
+Q7. Continuous Number Triangle ✅Practice
 1
 2 3
 4 5 6
@@ -54,7 +54,7 @@ Q7. Continuous Number Triangle
 11 12 13 14 15
 
 
-Q8. Row Number Triangle
+Q8. Row Number Triangle ✅✅✅
 1
 2 2
 3 3 3
@@ -62,7 +62,7 @@ Q8. Row Number Triangle
 5 5 5 5 5
 
 
-Q9. Reverse Number Triangle
+Q9. Reverse Number Triangle ❌❌❌
 1 2 3 4 5
 1 2 3 4
 1 2 3
@@ -70,7 +70,7 @@ Q9. Reverse Number Triangle
 1
 
 
-Q10. 0–1 Triangle 🔥
+Q10. 0–1 Triangle🔥  ✅✅✅
 1
 0 1
 1 0 1
@@ -78,7 +78,7 @@ Q10. 0–1 Triangle 🔥
 1 0 1 0 1
 
 
-Q11. Right-Aligned Triangle
+Q11. Right-Aligned Triangle✅Practice
         *
       * *
     * * *
@@ -86,7 +86,7 @@ Q11. Right-Aligned Triangle
 * * * * *
 
 
-Q12. Right-Aligned Number Triangle
+Q12. Right-Aligned Number Triangle  ✅✅✅
         1
       1 2
     1 2 3
@@ -94,7 +94,7 @@ Q12. Right-Aligned Number Triangle
 1 2 3 4 5
 
 
-Q13. Inverted Right-Aligned Triangle
+Q13. Inverted Right-Aligned Triangle✅Practice
 * * * * *
   * * * *
     * * *
@@ -102,7 +102,7 @@ Q13. Inverted Right-Aligned Triangle
         *
 
 
-Q14. Number Staircase
+Q14. Number Staircase  ✅✅✅
         1
       2 2
     3 3 3
@@ -110,7 +110,7 @@ Q14. Number Staircase
 5 5 5 5 5
 
 
-Q15. Hollow Square
+Q15. Hollow Square  ✅✅✅
 * * * * *
 *       *
 *       *
@@ -118,7 +118,7 @@ Q15. Hollow Square
 * * * * *
 
 
-Q16. Hollow Rectangle
+Q16. Hollow Rectangle  ✅✅✅
 
 Rows = 4, Columns = 7
 
