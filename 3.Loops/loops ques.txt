@@ -40,7 +40,7 @@ Q20. Print Prime Numbers 1 to N (n user se lo)✅practice
 
 Q21. Fibonacci Series (First N Fibonacci numbers print karo)✅practice
 
-Q22. Find Second Largest Number❌❌❌+
+Q22. Find Second Largest Number❌❌❌
  
 Q23. Strong Number ✅practice
 
