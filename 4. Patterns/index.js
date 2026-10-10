@@ -162,6 +162,14 @@
 //     }                                      // 5 4
 //     console.log();                         // 5
 // }
+
+// let num = 5
+// for(let i=num; i>=1; i--){
+//     for(let j=1; j<=i; j++){
+//         process.stdout.write(`${j} `)
+//     }
+//     console.log();
+// }
  
 //~~~~~~~~~~~~~~~~~~~~~~ Q10. 0-1 Triangle ~~~~~~~~~~~~~~~~~~~~~~~
 // let num = 5
@@ -329,7 +337,7 @@
 // }
 // console.log(str);
 
-//~~~~~~~~~~~~~~~ Q15. Hollow Square  ~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~ Q16. Hollow Rectangle  ~~~~~~~~~~~~~~~
 // let num = 4
 // let col = 7
 // for(let i=1; i<=num; i++){
@@ -342,7 +350,7 @@
 //     }
 //     console.log();
 // }
-//           OR
+// //           OR
 // let num = 4
 // let col = 7
 // let str = ""
@@ -358,14 +366,111 @@
 // }
 // console.log(str);
 
+//~~~~~~~~~~~~~~~ Q17. Hollow Triangle  ~~~~~~~~~~~~~~~
+
+
 //~~~~~~~~~~~~~~~ Q19. Pyramid  ~~~~~~~~~~~~~~~
-let num = 5
-for(let i=1; i<=num; i++){
-    for(let j=1; j<=num-i; j++){
-        process.stdout.write(" ")
+// let num = 5
+// for(let i=1; i<=num; i++){
+//     for(let j=1; j<=num-i; j++){
+//         process.stdout.write(" ")
+//     }
+//     for(let j=1; j<=i; j++){
+//         process.stdout.write("* ")
+//     }
+//     console.log();   
+// }
+// ye wala galat hai 
+// let num = 5
+// for(let i=1; i<=num; i++){
+//     for(let j=1; j<=num-i; j++){
+//         process.stdout.write("  ")
+//     }
+//     for(let j=1; j<=2*i-1; j++){
+//         process.stdout.write("* ")
+//     }
+//     console.log();
+// }
+
+//~~~~~~~~~~~~~~~ Q20. Inverted Pyramid  ~~~~~~~~~~~~~~~
+// let num = 5
+// for(let i=1; i<=num; i++){
+//     for(let j=1; j<=i-1; j++){
+//         process.stdout.write("  ")
+//     }
+//     for(let j=1; j<=2*(num-i)+1; j++){
+//         process.stdout.write("* ")
+//     }
+//     console.log();
+// }
+
+//~~~~~~~~~~~~~~~ Q21. Diamond  ~~~~~~~~~~~~~~~
+// let num = 5
+// for(let i=1; i<=num; i++){
+//     for(let j=1; j<=num-i; j++){
+//         process.stdout.write("  ")
+//     }
+//     for(let j=1; j<=2*i-1; j++){
+//         process.stdout.write("* ")
+//     }
+//     for(let j=1; j<=i-1; j++){
+//         process.stdout.write("  ")
+//     }
+//     for(let j=1; j<=2*(num-i)+1; j++){
+//         process.stdout.write("* ")
+//     }
+//     console.log();
+// }
+//*******correct solution************
+// let num = 5;
+// // NORMAL PYRAMID
+// for(let i=1; i<=num; i++){
+//     for(let j=1; j<=num-i; j++){
+//         process.stdout.write("  ");
+//     }
+//     for(let j=1; j<=2*i-1; j++){
+//         process.stdout.write("* ");
+//     }
+//     console.log();
+// }
+// // INVERTED PYRAMID
+// for(let i=2; i<=num; i++){
+//     for(let j=1; j<=i-1; j++){
+//         process.stdout.write("  ");
+//     }
+//     for(let j=1; j<=2*(num-i)+1; j++){
+//         process.stdout.write("* ");
+//     }
+//     console.log();
+// }
+
+let num = 5;
+for(let i = 1; i <= num; i++){
+    for(let j = 1; j <= i-1; j++){
+        process.stdout.write("  ");
     }
-    for(let j=1; j<=i; j++){
-        process.stdout.write("* ")
+    for(let j = 1; j <= 2*(num-i)+1; j++){
+
+        if(i == 1 || j == 1 || j == 2*(num-i)+1){
+            process.stdout.write("* ");
+        }
+        else{
+            process.stdout.write("  ");
+        }
     }
-    console.log();   
+    console.log();
+}
+for(let i = 1; i <= num; i++){
+    for(let j = 1; j <= num-i; j++){
+        process.stdout.write("  ");
+    }
+    for(let j = 1; j <= 2*i-1; j++){
+        if(i == num || j == 1 || j == 2*i-1){
+            process.stdout.write("* ");
+        }
+        else{
+            process.stdout.write("  ");
+        }
+    }
+    console.log();
 }

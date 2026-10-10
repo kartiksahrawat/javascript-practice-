@@ -1,42 +1,42 @@
-// //Q1. Print 1 to N. Take N from user.
+// //Q1. Print 1 to N. Take N from user.✅
 // let N = Number(prompt("Enter a number: "));
 // for (let i = 1; i <= N; i++) {
 //     console.log(i);
 // }
 
-// //Q2. Print N to 1. Take N from user.
+// //Q2. Print N to 1. Take N from user.✅
 // let n = Number(prompt("Enter a number: "));
 // for (let i = n; i >= 1; i--) {
 //     console.log(i);
 // }
 
-// //Q3. Print all even numbers from 1 to N. Take N from user.
+// //Q3. Print all even numbers from 1 to N. Take N from user.✅
 // let N = Number(prompt("Enter a number: "));
 // for (let i = 2; i <= N; i += 2) {
 //     console.log(i);
 // }
 
-// //Q4. Print all odd numbers from 1 to N. Take N from user.
+// //Q4. Print all odd numbers from 1 to N. Take N from user.✅
 // let n = Number(prompt("Enter a number: "));
 // for (let i = 1; i <= n; i += 2) {
 //     console.log(i);
 // }
 
-// //Q5. Multiplication Table( user se input lo kis ka table likhna hai)
+// //Q5. Multiplication Table( user se input lo kis ka table likhna hai)✅
 // let n = Number(prompt("Enter a number: "));
 // for (let i = 1; i <= 10; i++) {
 //     console.log(i*n);
 // }
 
 // //Q6. Sum 1 to N
-// let n = Number(prompt("Enter a number: "));
+// let n = Number(prompt("Enter a number: "));✅
 // let sum = 0;
 // for (let i = 1; i <= n; i++) {
 //     sum = sum+i;
 // }
 // console.log(sum);
 
-// //Q7. Count Even Numbers 1 to n.
+// //Q7. Count Even Numbers 1 to n.✅
 // let n = Number(prompt("Enter a number: "));
 // let count = 0;
 // for (let i=2; i<=n; i+=2){
@@ -44,7 +44,7 @@
 // }
 // console.log(count);
 
-// //Q8. Sum of Even Numbers 1 to n
+// //Q8. Sum of Even Numbers 1 to n✅
 // let n= Number(prompt("Enter a number: "));
 // let sum = 0;
 // for (let i=2; i<=n; i+=2){
@@ -52,7 +52,7 @@
 // }
 // console.log(sum);
 
-// // Q9. Count Numbers Divisible by 3 1 to n
+// // Q9. Count Numbers Divisible by 3 1 to n✅
 // let n = Number(prompt("Enter a number: "));
 // let count = 0;
 // for (let i=1; i<=n; i++){
@@ -62,9 +62,9 @@
 // }
 // console.log(count);
 
-// //Q10. Find the Largest Number(user kuch nos dega) also smallest 
+// //Q10. Find the Largest Number(user kuch nos dega) also smallest ✅
 
-// //Q11. Count Positive, Negative and Zero (User se N numbers lo.)
+// //Q11. Count Positive, Negative and Zero (User se N numbers lo.)✅
 // let n = Number(prompt("how many nos"));
 // let pos = 0;
 // let neg = 0;
@@ -83,7 +83,7 @@
 // console.log(neg);
 // console.log(zero);
 
-// //Q12. Reverse a Number
+// //Q12. Reverse a Number✅
 // let num = 789
 // let rev = 0
 // while(num > 0){
@@ -93,7 +93,7 @@
 // }
 // console.log(rev)
 
-// //Q. Print the no of digits in a number
+// //Q. Print the no of digits in a number✅
 // let num = 5786
 // while(num > 0){
 //     let rem = num % 10
@@ -101,14 +101,14 @@
 //     num = parseInt(num/10)
 // }
 
-// //Q. Print the no of digits in a number but left to right 
+// //Q. Print the no of digits in a number but left to right ✅
 // let num = 5786
 // let str = String(num)
 // for(let i= 0; i < str.length; i++){
 //     console.log(str[i])
 // }
 
-// //Q13. Sum of Digits
+// //Q13. Sum of Digits✅
 // let num = 123
 // let sum = 0
 // while(num>0){
@@ -118,7 +118,7 @@
 // }
 // console.log(sum);
 
-// //Q14. Count the no of digits in a number 
+// //Q14. Count the no of digits in a number ✅
 // let num = 5827
 // let count = 0
 // while(num > 0 ){
@@ -128,7 +128,7 @@
 // }
 // console.log(count)
 
-// // Q15. Check Palindrome Number
+// // Q15. Check Palindrome Number✅
 // let num = 8008
 // let org = 8008
 // let rev = 0
@@ -144,7 +144,7 @@
 //     console.log("Not a Palindrome")
 // }
     
-// // Q16. Factorial
+// // Q16. Factorial✅
 // let num = 5
 // let pro = 1
 // for(let i=num; i>0; i--){
@@ -152,7 +152,7 @@
 // }
 // console.log(pro);
 
-// // Q17. Print Factors
+// // Q17. Print Factors✅
 // let num = 12
 // for(let i=1; i<=num; i++){
 //     if(num%i == 0){
@@ -160,7 +160,7 @@
 //     }
 // }
 
-// //Q18. Count Factors
+// //Q18. Count Factors✅
 // let num = 12
 // let count = 0
 // for(let i=1; i<=num; i++){
@@ -170,7 +170,7 @@
 // }
 // console.log(count);
 
-// //Q19. Prime Number
+// //Q19. Prime Number✅
 // let num = 4
 // for(let i=1; i<=num; i++){
 //     if(num%1==0 && num%num==0){
@@ -195,7 +195,7 @@
 //     console.log(`no ${num} isn't a prime no`)
 // }
 
-// // Q20. Print Prime Numbers 1 to N (n user se lo)
+// // Q20. Print Prime Numbers 1 to N (n user se lo)✅
 // let num = Number(prompt("Enter N:"));
 // for(let i = 2; i <= num; i++){
 //     let isPrime = true;
@@ -210,7 +210,7 @@
 //     }
 // }
 
-// // Q21. Fibonacci Series (First N Fibonacci numbers print karo) 
+// // Q21. Fibonacci Series (First N Fibonacci numbers print karo) ✅
 // let n = Number(prompt("Enter N:"));
 // let a = 0
 // let b = 1 
@@ -225,7 +225,7 @@
 
 // // Q22. Find Second Largest Number*******************
 
-// // Q23. Strong Number
+// // Q23. Strong Number✅Practice
 // let num = 145
 // let original = num
 // let sum = 0
@@ -245,7 +245,7 @@
 //     console.log(`NO ${original} isn't a strong number`);    
 // }
 
-// // Q24. Armstrong Number
+// // Q24. Armstrong Number✅Practice
 // let num = 153
 // let temp = num
 // let count = 0
@@ -269,7 +269,7 @@
 //     console.log(`${num} is not an armstrong number!!`);
 // }
 
-// //Q25. Check Perfect Number
+// //Q25. Check Perfect Number✅Practice
 // let num = 6
 // let sum = 0
 // for(let i=1; i<num; i++){
@@ -285,21 +285,21 @@
 
 // *********** Some additional ques ***********
 
-// Q1.
+// Q1.✅
 // let num = 1
 // while(num<=20){
 //     console.log(num);
 //     num++;
 // }
 
-// Q2.
+// Q2.✅
 // let num = 20
 // while(num>=1){
 //     console.log(num);
 //     num--;
 // }
 
-// Q3.
+// Q3.✅
 // let num = 1
 // while(num<=50){
 //     if(num%2==0){
@@ -308,7 +308,7 @@
 //     num++;
 // }
 
-// Q4.
+// Q4.✅
 // let num = 1
 // while(num<=50){
 //     if(num%2!=0){
@@ -317,7 +317,7 @@
 //     num++;
 // }
 
-//Q5.
+//Q5.✅
 // let num = 2
 // let i = 1
 // while(i<=10){
@@ -325,7 +325,7 @@
 //     i++
 // }
 
-//Q6.
+//Q6.✅
 // let num = 1
 // let sum = 0
 // while(num<=100){
@@ -334,7 +334,7 @@
 // }
 // console.log(sum);
 
-//Q7. 
+//Q7. ✅
 // let num = 1
 // let sum = 0
 // while(num<=100){
@@ -345,7 +345,7 @@
 // }
 // console.log(sum);
 
-//Q8.
+//Q8.✅
 // let num = 1
 // let sum = 0
 // while(num<=100){
@@ -356,7 +356,7 @@
 // }
 // console.log(sum);
 
-//Q9. 
+//Q9. ✅
 // let num = 1
 // while(num<=100){
 //     if(num%3==0){
@@ -365,7 +365,7 @@
 //     num++
 // }
 
-//Q10.
+//Q10.✅
 // let num = 1
 // let count = 0
 // while(num<=100){
@@ -376,7 +376,7 @@
 // }
 // console.log(count)
 
-//Q11.
+//Q11.✅
 // let num = 5
 // let pro = 1
 // while(num>=1){
@@ -385,21 +385,21 @@
 // }
 // console.log(pro);
 
-//Q12.
+//Q12.✅
 // let num = 1
 // while(num <=20){
 //     console.log(num**2)
 //     num++
 // }
 
-//Q13.
+//Q13.✅
 // let num = 1
 // while(num <=20){
 //     console.log(num**3)
 //     num++
 // }
 
-//Q14.
+//Q14.✅
 // let n = Number(prompt("Enter ur no--"))
 // let num = 1
 // let sum = 0
@@ -409,7 +409,7 @@
 // }
 // console.log(sum);
 
-//Q15.**********************DOubt
+//Q15.✅
 // let n = Number(prompt("Enter ur no--"))
 // let num = 1
 // let sum = 0
@@ -421,7 +421,7 @@
 // }
 // console.log(sum);
 
-//Q16.**********************DOubt
+//Q16.✅
 // let n = Number(prompt("Enter ur no--"))
 // let num = 1
 // let sum = 0
@@ -433,7 +433,7 @@
 // }
 // console.log(sum);
 
-//Q17.
+//Q17.✅
 // let num = 1
 // while(num<=100){
 //     if(num%3==0 && num%5==0){
@@ -442,7 +442,7 @@
 //     num++
 // }
 
-//Q18.
+//Q18.✅
 // let num = 1
 // let count = 0
 // while(num<=100){
@@ -453,7 +453,7 @@
 // }
 // console.log(count);
 
-//Q19.
+//Q19.✅
 // let arr = [12, 45, 7, 89, 23, 56]
 // let largest = 0
 // for(let i=0; i<arr.length; i++){
@@ -463,7 +463,7 @@
 // }
 // console.log(largest);
 
-//Q20.
+//Q20.✅
 // let arr = [12, 45, 7, 89, 23, 56]
 // let smallest = arr[0]
 // for(let i=0; i<arr.length; i++){
@@ -473,7 +473,7 @@
 // }
 // console.log(smallest);
 
-//Q21.
+//Q21.✅
 // let arr = [12, 45, 7, 89, 23, 56]
 // let count = 0
 // for(let i=0; i<arr.length; i++){
@@ -483,7 +483,7 @@
 // }
 // console.log(count);
 
-//Q22.
+//Q22.✅
 // let arr = [12, 45, 7, 89, 23, 56]
 // let count = 0
 // for(let i=0; i<arr.length; i++){
@@ -493,7 +493,7 @@
 // }
 // console.log(count);
 
-//Q23.
+//Q23.✅
 // let arr = [12, 45, 7, 89, 23, 56]
 // let sum = 0
 // for(let i=0; i<arr.length; i++){
@@ -501,7 +501,7 @@
 // }
 // console.log(sum);
 
-//Q24.
+//Q24.❌❌❌
 // let arr = [12, 45, 7, 89, 23, 56]
 // let arr2 = []
 // for(let i=0; i<arr.length; i++){
@@ -514,9 +514,9 @@
 //     console.log(arr[i]);
 // }
 
-//Q25.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+//Q25.❌❌❌
 
-//Q26.
+//Q26.✅
 // let num = 18022005
 // let sum = 0
 // while(num>0){
@@ -526,7 +526,7 @@
 // }
 // console.log(sum);
 
-//Q27.
+//Q27.✅
 // let num = 18022006
 // let count = 0
 // while(num>0){
@@ -536,7 +536,7 @@
 // }
 // console.log(count);
 
-//Q28.
+//Q28.✅
 // let num = 1809864447789
 // let largest = 0
 // while(num>0){
