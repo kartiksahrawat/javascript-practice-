@@ -368,6 +368,7 @@
 
 //~~~~~~~~~~~~~~~ Q17. Hollow Triangle  ~~~~~~~~~~~~~~~
 
+//~~~~~~~~~~~~~~~ Q18. Inverted Hollow Triangle  ~~~~~~~~~~~~~~~
 
 //~~~~~~~~~~~~~~~ Q19. Pyramid  ~~~~~~~~~~~~~~~
 // let num = 5
@@ -444,33 +445,38 @@
 //     console.log();
 // }
 
-let num = 5;
-for(let i = 1; i <= num; i++){
-    for(let j = 1; j <= i-1; j++){
-        process.stdout.write("  ");
-    }
-    for(let j = 1; j <= 2*(num-i)+1; j++){
+// Q22. Hollow Diamond✅Practice
 
-        if(i == 1 || j == 1 || j == 2*(num-i)+1){
-            process.stdout.write("* ");
-        }
-        else{
-            process.stdout.write("  ");
-        }
-    }
-    console.log();
-}
-for(let i = 1; i <= num; i++){
-    for(let j = 1; j <= num-i; j++){
-        process.stdout.write("  ");
-    }
-    for(let j = 1; j <= 2*i-1; j++){
-        if(i == num || j == 1 || j == 2*i-1){
-            process.stdout.write("* ");
-        }
-        else{
-            process.stdout.write("  ");
-        }
-    }
-    console.log();
-}
+//~~~~~~~~~~~~~~~ Q23. Hour Glass  ~~~~~~~~~~~~~~~
+// let num = 5;
+// for(let i = 1; i <= num; i++){
+//     for(let j = 1; j <= i-1; j++){
+//         process.stdout.write("  ");
+//     }
+//     for(let j = 1; j <= 2*(num-i)+1; j++){
+
+//         if(i == 1 || j == 1 || j == 2*(num-i)+1){
+//             process.stdout.write("* ");
+//         }
+//         else{
+//             process.stdout.write("  ");
+//         }
+//     }
+//     console.log();
+// }
+
+// for(let i = 2; i <= num; i++){
+//     for(let j = 1; j <= num-i; j++){
+//         process.stdout.write("  ");
+//     }
+//     for(let j = 1; j <= 2*i-1; j++){
+//         if(i == num || j == 1 || j == 2*i-1){
+//             process.stdout.write("* ");
+//         }
+//         else{
+//             process.stdout.write("  ");
+//         }
+//     }
+//     console.log();
+// }
+

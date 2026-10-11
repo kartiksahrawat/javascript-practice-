@@ -62,7 +62,7 @@ Q8. Row Number Triangle ✅✅✅
 5 5 5 5 5
 
 
-Q9. Reverse Number Triangle ❌❌❌
+Q9. Reverse Number Triangle ✅Practice
 1 2 3 4 5
 1 2 3 4
 1 2 3
@@ -144,7 +144,7 @@ Q18. Inverted Hollow Triangle
 *
 
 
-Q19. Pyramid
+Q19. Pyramid ✅Practice
         *
       * * *
     * * * * *
@@ -152,7 +152,7 @@ Q19. Pyramid
 * * * * * * * * *
 
 
-Q20. Inverted Pyramid
+Q20. Inverted Pyramid✅Practice
 * * * * * * * * *
   * * * * * * *
     * * * * *
@@ -160,7 +160,7 @@ Q20. Inverted Pyramid
         *
 
 
-Q21. Diamond 💎
+Q21. Diamond 💎✅Practice
         *
       * * *
     * * * * *
@@ -171,26 +171,7 @@ Q21. Diamond 💎
       * * *
         *
 
-
-Q22. Number Pyramid
-        1
-      1 2 1
-    1 2 3 2 1
-  1 2 3 4 3 2 1
-1 2 3 4 5 4 3 2 1
-
-
-Q23. Butterfly
-*       *
-**     **
-***   ***
-*********
-***   ***
-**     **
-*       *
-
-
-Q24. Hollow Diamond
+Q22. Hollow Diamond✅Practice
         *
       *   *
     *       *
@@ -201,8 +182,35 @@ Q24. Hollow Diamond
       *   *
         *
 
+Q23. Hollow Diamond✅Practice
+* * * * * * * * * 
+  *           * 
+    *       * 
+      *   * 
+        * 
+      *   * 
+    *       * 
+  *           * 
+* * * * * * * * * 
 
-Q25. Pascal-Type Number Pattern 🔥
+Q24. Number Pyramid✅Practice
+        1
+      1 2 1
+    1 2 3 2 1
+  1 2 3 4 3 2 1
+1 2 3 4 5 4 3 2 1
+
+
+Q25. Butterfly✅Practice
+*       *
+**     **
+***   ***
+*********
+***   ***
+**     **
+*       *
+
+Q26. Pascal-Type Number Pattern 🔥✅Practice
         1
        121
       12321
