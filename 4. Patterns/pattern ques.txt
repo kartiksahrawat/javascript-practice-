@@ -128,7 +128,7 @@ Rows = 4, Columns = 7
 * * * * * * *
 
 
-Q17. Hollow Triangle
+Q17. Hollow Triangle✅Practice
 *
 * *
 *   *
@@ -136,7 +136,7 @@ Q17. Hollow Triangle
 * * * * *
 
 
-Q18. Inverted Hollow Triangle
+Q18. Inverted Hollow Triangle✅Practice
 * * * * *
 *     *
 *   *
@@ -171,7 +171,21 @@ Q21. Diamond 💎✅Practice
       * * *
         *
 
-Q22. Hollow Diamond✅Practice
+Q22. Hollow Pyramid✅Practice
+        * 
+      *   * 
+    *       * 
+  *           * 
+* * * * * * * * * 
+
+Q23. Hollow Inverted Pyramid✅Practice (15/10/2026 22:17 Thursday)
+* * * * * * * * * 
+  *           * 
+    *       * 
+      *   * 
+        * 
+
+Q24. Hollow Diamond✅Practice
         *
       *   *
     *       *
@@ -182,7 +196,7 @@ Q22. Hollow Diamond✅Practice
       *   *
         *
 
-Q23. Hollow Diamond✅Practice
+Q25. Hour Glass ✅Practice
 * * * * * * * * * 
   *           * 
     *       * 
@@ -193,7 +207,7 @@ Q23. Hollow Diamond✅Practice
   *           * 
 * * * * * * * * * 
 
-Q24. Number Pyramid✅Practice
+Q26. Number Pyramid✅Practice
         1
       1 2 1
     1 2 3 2 1
@@ -201,7 +215,7 @@ Q24. Number Pyramid✅Practice
 1 2 3 4 5 4 3 2 1
 
 
-Q25. Butterfly✅Practice
+Q27. Butterfly✅Practice
 *       *
 **     **
 ***   ***
@@ -210,7 +224,7 @@ Q25. Butterfly✅Practice
 **     **
 *       *
 
-Q26. Pascal-Type Number Pattern 🔥✅Practice
+Q28. Pascal-Type Number Pattern 🔥✅Practice
         1
        121
       12321

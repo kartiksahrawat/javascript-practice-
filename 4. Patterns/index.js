@@ -367,8 +367,56 @@
 // console.log(str);
 
 //~~~~~~~~~~~~~~~ Q17. Hollow Triangle  ~~~~~~~~~~~~~~~
+// let num = 5
+// for(let i=1; i<=num; i++){
+//     for(let j=1; j<=i; j++){
+//         if( i==num || j==1 || i==j){
+//             process.stdout.write("* ")
+//         }else{
+//             process.stdout.write("  ")
+//         }
+//     }
+//     console.log();
+// }
+//OR 
+// let num = 5
+// let str = ""
+// for(let i=1; i<=num; i++){
+//     for(let j=1; j<=i; j++){
+//         if( i==num || j==1 || i==j){
+//             str += ("* ");
+//         }else {
+//             str += ("  ");
+//         }
+//     }
+//     str += "\n"
+// }
+// console.log(str);
 
 //~~~~~~~~~~~~~~~ Q18. Inverted Hollow Triangle  ~~~~~~~~~~~~~~~
+// let num = 6
+// for( let i=1; i<=num; i++){
+//     for(let j=num; j>0; j--){
+//         if( i==1 || j==1 || i+j==num+1){
+//             process.stdout.write("* ")
+//         }else{
+//             process.stdout.write("  ")
+//         }
+//     }
+//     console.log();
+// } 
+// ye code toh inverted right aligned hollow ka hogya by mistake  
+// let num = 6
+// for(let i=1; i<=num; i++){
+//     for(let j=1; j<=num-i+1;j++){
+//         if( i==1 || j==1 || i+j==num+1){
+//             process.stdout.write("* ")
+//         }else {
+//             process.stdout.write("  ")
+//         }
+//     }
+//     console.log();
+// }
 
 //~~~~~~~~~~~~~~~ Q19. Pyramid  ~~~~~~~~~~~~~~~
 // let num = 5
@@ -385,10 +433,10 @@
 // let num = 5
 // for(let i=1; i<=num; i++){
 //     for(let j=1; j<=num-i; j++){
-//         process.stdout.write("  ")
+//         process.stdout.write("__")
 //     }
 //     for(let j=1; j<=2*i-1; j++){
-//         process.stdout.write("* ")
+//         process.stdout.write("*_")
 //     }
 //     console.log();
 // }
@@ -445,7 +493,38 @@
 //     console.log();
 // }
 
-// Q22. Hollow Diamond✅Practice
+// ~~~~~~~~~~~~~~~ Q22. Hollow Pyramid  ~~~~~~~~~~~~~~~
+// let num = 5
+// for(let i=1; i<=num; i++){
+//     for(let j=1; j<=num-i; j++){
+//         process.stdout.write("  ")
+//     }
+//     for(let j=1; j<=2*i-1; j++){
+//         if( i==num || j==1 || j==2*i-1){
+//             process.stdout.write("* ")
+//         }else{
+//             process.stdout.write("  ")
+//         }
+//     }
+//     console.log();
+// }
+
+// ~~~~~~~~~~~~~~~ Q23. Inverted Hollow Pyramid  ~~~~~~~~~~~~~~~
+let num = 5
+for(let i=1; i<=num; i++){
+    for(let j=1; j<i; j++){
+        process.stdout.write("  ")
+    }
+    for(let j=1; j<=2*(num-i)+1; j++){
+        if( i==1 || j==1 || j==2*(num-i)+1){
+            process.stdout.write("* ")
+        }
+        else{
+            process.stdout.write("  ")
+        }
+    }
+    console.log();
+}
 
 //~~~~~~~~~~~~~~~ Q23. Hour Glass  ~~~~~~~~~~~~~~~
 // let num = 5;
