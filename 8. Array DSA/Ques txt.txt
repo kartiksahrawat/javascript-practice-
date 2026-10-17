@@ -1,0 +1,140 @@
+# Array DSA Questions — Easy to Hard
+
+*Language:* JavaScript
+*Rule:* Do not use built-in methods such as sort(), reverse(), Math.max(), Math.min(), reduce(), includes(), indexOf(), etc.
+
+
+
+## 🟢 Level 1 — Beginner
+
+1. Find the largest element in an array.
+2. Find the smallest element in an array.
+3. Find the second largest element.
+4. Find the second smallest element.
+5. Find the sum of all elements.
+6. Find the average of all elements.
+7. Count even and odd numbers.
+8. Count positive, negative, and zero elements.
+9. Search for an element using linear search.
+10. Reverse an array in-place.
+11. Check whether an array is sorted.
+12. Find the frequency of a given element.
+13. Find the total number of duplicate elements.
+14. Copy one array into another without using built-in methods.
+15. Find the difference between the largest and smallest element.
+16. Find the largest and smallest element in a single traversal.
+17. Find the first element that appears only once.
+18. Find the element that occurs the maximum number of times.
+19. Check whether two arrays are equal.
+20. Find the missing number from 1 to N.
+
+
+
+## 🟡 Level 2 — Basic Interview
+
+21. Move all zeros to the end of the array.
+22. Move all negative numbers to the beginning of the array.
+23. Remove duplicates from a sorted array.
+24. Left rotate an array by one position.
+25. Right rotate an array by one position.
+26. Left rotate an array by K positions.
+27. Right rotate an array by K positions.
+28. Find the union of two arrays.
+29. Find the intersection of two arrays.
+30. Find all duplicate elements in an array.
+31. Find all elements that appear only once.
+32. Find all pairs whose sum is equal to K.
+33. Find all triplets whose sum is equal to K.
+34. Find the majority element that occurs more than N/2 times.
+35. Find the maximum difference arr[j] - arr[i] where j > i.
+36. Find the maximum product of two elements.
+37. Find the minimum product of two elements.
+38. Find the maximum sum of a subarray.
+39. Find the minimum sum of a subarray.
+40. Find the longest subarray with sum K.
+
+
+
+## 🟠 Level 3 — Intermediate
+
+41. Find the number of subarrays with sum K.
+42. Find a subarray whose sum is 0.
+43. Find the longest subarray with sum 0.
+44. Find the equilibrium index of an array.
+45. Find all leaders in an array.
+46. Find the best time to buy and sell a stock once.
+47. Find the best time to buy and sell a stock multiple times.
+48. Sort an array containing only 0, 1, and 2 without using sort().
+49. Merge two sorted arrays without using sort().
+50. Find the Kth largest element.
+51. Find the Kth smallest element.
+52. Find the longest consecutive sequence.
+53. Find the maximum product subarray.
+54. Find the first missing positive integer.
+55. Find the element occurring more than N/3 times.
+56. Rearrange positive and negative numbers alternately.
+57. Find the maximum sum of non-adjacent elements.
+58. Find the minimum number of jumps required to reach the last index.
+59. Determine whether it is possible to reach the last index.
+60. Find the minimum number of swaps required to sort an array.
+
+
+
+## 🔴 Level 4 — Advanced
+
+61. Find the maximum sum circular subarray.
+62. Find the maximum product subarray.
+63. Solve the Trapping Rain Water problem.
+64. Find the maximum area of water that can be stored between two lines.
+65. Find the largest rectangle in a histogram.
+66. Find the maximum rectangle of 1s in a binary matrix.
+67. Find the number of inversions in an array.
+68. Find all reverse pairs.
+69. Find the sliding window maximum.
+70. Find the shortest subarray with sum at least K.
+71. Find the longest subarray with equal number of 0s and 1s.
+72. Find the longest subarray with equal number of 0s, 1s, and 2s.
+73. Count the number of subarrays whose XOR is K.
+74. Find the longest subarray whose XOR is K.
+75. Find the maximum XOR of two elements.
+76. Search for an element in a rotated sorted array.
+77. Find the minimum element in a rotated sorted array.
+78. Find the number of rotations in a rotated sorted array.
+79. Find the peak element in an array.
+80. Find the median of two sorted arrays.
+
+
+
+## 🔥 Level 5 — Interview Hard
+
+81. Find the duplicate number without modifying the array.
+82. Find the missing and repeating number.
+83. Find the smallest missing positive integer in O(n) time and O(1) extra space.
+84. Find the Kth largest element without sorting.
+85. Find the Kth smallest element without sorting.
+86. Count smaller elements after each element.
+87. Find the maximum number of chunks that can be sorted independently.
+88. Find the minimum swaps required to bring all elements ≤ K together.
+89. Find the smallest range containing at least one element from each of multiple sorted arrays.
+90. Find the maximum sum rectangle in a 2D matrix.
+
+
+
+## 📝 For Every Question
+
+After solving each problem, write:
+
+*1. Approach:*
+*2. Time Complexity:*
+*3. Space Complexity:*
+*4. Why this complexity?*
+*5. Edge Cases:*
+
+### Rules
+
+* Do not use built-in sorting methods.
+* Do not use built-in reverse methods.
+* Try to solve using loops and basic array operations.
+* First try the brute-force approach.
+* Then try to optimize the solution.
+* Always mention Time and Space Complexity.

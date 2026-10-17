@@ -62,7 +62,7 @@ Q8. Row Number Triangle ✅✅✅
 5 5 5 5 5
 
 
-Q9. Reverse Number Triangle ✅Practice
+Q9. Reverse Number Triangle ✅✅✅
 1 2 3 4 5
 1 2 3 4
 1 2 3
@@ -128,7 +128,7 @@ Rows = 4, Columns = 7
 * * * * * * *
 
 
-Q17. Hollow Triangle✅Practice
+Q17. Hollow Triangle ✅Practice
 *
 * *
 *   *
@@ -136,7 +136,7 @@ Q17. Hollow Triangle✅Practice
 * * * * *
 
 
-Q18. Inverted Hollow Triangle✅Practice
+Q18. Inverted Hollow Triangle ✅Practice
 * * * * *
 *     *
 *   *
@@ -152,7 +152,7 @@ Q19. Pyramid ✅Practice
 * * * * * * * * *
 
 
-Q20. Inverted Pyramid✅Practice
+Q20. Inverted Pyramid ✅Practice
 * * * * * * * * *
   * * * * * * *
     * * * * *
@@ -171,7 +171,7 @@ Q21. Diamond 💎✅Practice
       * * *
         *
 
-Q22. Hollow Pyramid✅Practice
+Q22. Hollow Pyramid
         * 
       *   * 
     *       * 
@@ -230,4 +230,10 @@ Q28. Pascal-Type Number Pattern 🔥✅Practice
       12321
      1234321
     123454321
+
+
+
+
+
+
 
