@@ -256,3 +256,72 @@
 //     return false
 // }
 // console.log(checkNumber([10, 20, 30, 40], 10));
+
+// Array Methods:
+// 1.Push: add element at the end and returns the new length of the array
+// let arr = [10,20,30,40,50]
+// let b = arr.push(101)
+// console.log(arr);
+// console.log("Number of elements/ length of new array:-", b);
+
+// 2. pop: remove element from the end and returns the removed element 
+// let arr = [10,20,30,40,50]
+// let a = arr.pop()
+// console.log(arr);
+// console.log("removed element:-", a);
+
+// 3. shift(): removes the first element of the array and returns it 
+// let arr = [10,20,30,40,50]
+// let a = arr.shift()
+// console.log(arr);
+// console.log("removed element:-", a);
+
+// 4. unshift(): add elements at the beginning of the Array and returns new length
+// let arr = [10,20,30,40,50]
+// let a = arr.unshift(101,102,103,104)
+// console.log(arr);
+// console.log(a);
+
+// 5. slice(): returns the copy of the portion of and array without changing the original array, always return new array
+// let arr = [10,20,30,40,50]
+// let a = arr.slice(1, 4)
+// console.log(arr);
+// console.log(a);
+
+// 6. splice(): used to remove, add, or replace Element in an array by modifying the original array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LEVEL 4: Functions + Arrays Methods ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+// Q21. Get Even Numbers
+
+
