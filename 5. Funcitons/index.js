@@ -173,3 +173,86 @@
 // console.log(perfectNum(10));
 
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LEVEL 4: Functions + Arrays ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+//Extra ques 1: Print and count the words containing "a".
+// function alphaContain(arr){
+//     let count = 0
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i].includes("a")){
+//             console.log(arr[i]);
+//             count++
+//         }
+//     }
+//     return count
+// }
+// console.log(alphaContain(["kartik", "love", "vihana"]));
+
+//Extra ques 2: Make a copy of an array:-
+// function copy(arr){
+//     let arr2 = []
+//     let count = 0
+//     for(let i=0; i<arr.length; i++){
+//         arr2[count] = arr[i]
+//         count++
+//     }
+//     return {arr2, arr}
+
+// }
+// console.log(copy(["kartik", "love", "vihana"]));
+
+// Q16. Array Sum
+// function sumArr(arr){
+//     let sum = 0
+//     for(let i=0; i<arr.length; i++){
+//         sum += arr[i]
+//     }
+//     return sum 
+// }
+// console.log(sumArr([10, 20, 30, 40]));
+
+// Q17. Largest Element
+// function largestEle(arr){
+//     let largest = arr[0]
+//     for(let i=1; i<arr.length; i++){
+//         if(arr[i]>largest){
+//             largest = arr[i]
+//         }
+//     }
+//     return largest
+// }
+// console.log(largestEle([-12, -7, -3, -16, 0, -5, -11]));
+
+// Q18. Count Even Elements
+// function countEven(arr){
+//     let countEven = 0
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i]%2 == 0){
+//             countEven++
+//         }
+//     }
+//     return countEven
+// }
+// console.log(countEven([1, 2, 4, 7, 8, 11]));
+
+// Q19. Reverse an Array
+// function revArr(arr){
+//     let revArr = []
+//     let idx = 0
+//     for(let i=0; i<arr.length; i++){
+//         revArr[idx] = arr[arr.length-i-1]
+//         idx++
+//     }
+//     return revArr
+// }
+// console.log(revArr([1, 2, 3, 4, 5]));
+
+// Q20. Find Element
+// function checkNumber(arr,x){
+//     for(let i=0; i<arr.length; i++){
+//         if(arr[i] == x){
+//             return true
+//         }
+//     }
+//     return false
+// }
+// console.log(checkNumber([10, 20, 30, 40], 10));
