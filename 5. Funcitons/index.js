@@ -289,39 +289,91 @@
 // console.log(a);
 
 // 6. splice(): used to remove, add, or replace Element in an array by modifying the original array
+// let arr2 = [10,20,30,40,50]
+// let b = arr2.splice(1, 4)
+// console.log(arr2);
+// console.log(b);
+// to add an element to that array 
+// let arr = [1,2,3,4,5]
+// arr.splice(2,0,3)
+// console.log(arr);
 
+// 7. split():- converts a string into an array!
+// let str = "Kartik Sahrawat Loves Vihana"
+// let arr = str.split(" ")
+// console.log(arr);
+ 
+// 8. join():- converts an array to the string!
+// let arr = ["Kartik", "Sahrawat", "Loves", "Vihana"]
+// let str = arr.join(", -")
+// console.log(str);
 
+// 9. map():- map is used to transform every element of the array amd returns a new array 
+// let mapArr = (arr) => {
+//     return [
+//         arr.map( n => n*2),
+//         arr.map( n => n+5),
+//         arr.map( n => n-5)
+//     ]
+// }
+// console.log(mapArr([12, 3, 45, 2, 10]));
+// k3b means ki jo map hai vo har ek element ke paas jata hai and usko condition ke according change krke ek new array me collect krdeta hai and original array ko untouched rakhta hai...
 
+// 10. filter():- ye har element ke pass jaaega and usko just check krega according to condition and jo ele uss cond ko satisfy krega unko new array me collect krke return krega original array untouched rhegi...
+// let filer = (arr) => {
+//     return arr.filter( n => n>12)
+// }
+// console.log(filer([12, 3, 45, 2, 10]));
 
+// 11. reduce():- array ke saare elements ko add krke ek single value return krta hai...
+// let reduce = (arr) => {
+//     return arr.reduce( (acc, current) => acc+current, -120)
+// }
+// console.log(reduce([12, 3, 45, 2, 10]));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/// 12. find():- return krta hai first element jo given condition ko satisfy krta hai...
+// let arr = [10,20,31,40]
+// let ans = arr.find(function(num){
+//     return num%2!=0
+// })
+// console.log(ans);
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LEVEL 4: Functions + Arrays Methods ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 // Q21. Get Even Numbers
+let evenNum = (arr) => {
+    return arr.filter(n=>n%2==0)
+}
+// console.log(evenNum([1,2,3,4,5,6]));
 
+// Q22. Get Squares
+let square = (arr) => {
+    return arr.map(n=>n**2)
+}
+// console.log(square([1,2,3,4,5]));    
 
+// Q23. Sum of Even Numbers ~~~~~iss ques ko notebook me note krna hai ladle bhaii~~~~~
+let sumEven =(arr)=>{
+    return arr.filter(n=>n%2==0).reduce((a,b)=>a+b,0)
+}
+// console.log(sumEven([1,2,3,4,5,6]));
+
+// Q24. Find First Number Greater Than 50
+let greatNum = (arr)=>{
+    return arr.filter(n=>n>50)
+}
+// console.log(greatNum([10, 25, 63, 72, 90])); // isme vo saare nos aajaenga jo condition pr satisfy krte hai but hume first ele chahiye tohh
+
+let grtNum = (arr)=>{
+    return arr.find(n=>n>50)
+}
+// console.log(grtNum([10, 25, 63, 72, 90]));
+
+// Q25. HOF Challenge 
+let add = (a,b) => a+b 
+let multi = (a,b) => a*b
+let calculate = (a,b,operation)=>{
+    return operation(a,b)
+}
+// console.log(calculate(10,3, add));
+// console.log(calculate(10,3, multi));
