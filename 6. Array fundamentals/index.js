@@ -130,7 +130,7 @@ let allStuff =  (arr)=>{
   console.log(arr.includes("JavaScript"))
   return [ arr, "Length of final array:-", arr.length ]
 }
-console.log(allStuff(["HTML", "CSS", "Python", "Java", "C++"]));
+// console.log(allStuff(["HTML", "CSS", "Python", "Java", "C++"]));
 
 
 
