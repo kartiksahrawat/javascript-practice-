@@ -84,9 +84,53 @@ let lenArrTrack = (arr)=>{
 // lenArrTrack([10, 20, 30, 40, 50])
 
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Level 3 — slice() / splice() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+// Q11. Extract Without Modifying
+let arrSlice = (arr)=>{
+  return [ 
+    arr,
+    arr.slice(1,4)
+  ]
+}
+// console.log(arrSlice([10, 20, 30, 40, 50]));
+
+// Q12. Remove Specific Elements
+let eleRev = (arr)=>{
+  return [
+    [...arr],
+    arr.splice(2,2),
+    arr,
+  ]
+}
+// console.log(eleRev([10, 20, 30, 40, 50]));
+
+// Q13. Replace Using splice() 
+let replaceEle = (arr)=>{
+  arr.splice(2, 1, "JavaScript")
+  return arr
+}
+// console.log(replaceEle(["HTML", "CSS", "Python", "Java"]));
 
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Level 4 — Mixed Fundamentals ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+// Q14. Array Transformation
+let addRemove = (arr)=>{
+  arr.pop()
+  arr.unshift(5)
+  return arr
+}
+// console.log(addRemove([10, 20, 30, 40, 50]));
 
+// Q15.  Array Fundamentals Challenge
+let allStuff =  (arr)=>{
+  console.log(arr.length);
+  arr.splice(2,1,"JavaScript")
+  arr.unshift("Git")
+  arr.pop()
+  console.log(arr.includes("JavaScript"))
+  return [ arr, "Length of final array:-", arr.length ]
+}
+console.log(allStuff(["HTML", "CSS", "Python", "Java", "C++"]));
 
 
 
