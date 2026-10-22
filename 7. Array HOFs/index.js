@@ -55,15 +55,88 @@ let checkEle = (arr) => {
 // console.log(checkEle([20, 40, 60, 80]));
 
 
+//  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Level 3 — Combination ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Q11. `filter()` + `map()`
+let evenSquare = (arr) => arr.filter( n => n%2==0 ).map( n => n**2)
+// console.log(evenSquare([1, 2, 3, 4, 5, 6]));
+
+// Q12. `filter()` + `reduce()`
+let evenSum = (arr) => arr.filter( n => n%2==0 ).reduce((a,b) => a+b, 0)
+// console.log(evenSum( [10, 15, 20, 25, 30]));
 
 
+// x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+// Some Practice Shitt:-
+let users = [
+    { name: "Aman", age: 17 },
+    { name: "Kartik", age: 20 },
+    { name: "Rohit", age: 22 },
+    { name: "Rahul", age: 16 }
+];
+// Accessing Elements from this bad boyy:- 
+
+// 1. Index se poora object access karna
+// console.log(users[0], users[1], users[2], users[6]);
+
+// 2. Index + property se specific value access karna
+// console.log(users[1]["name"]);
+// console.log(users[1]["age"]);
+// console.log(users[1].name);
+// console.log(users[1].age);
+
+// 3. for loop se saare users access karna
+for(let i=0; i<users.length; i++){
+    // console.log(users[i].name, users[i].age);
+}
+
+// 4. for...of se access karna
+for( let val of users){
+    // console.log(val.name, val.age);
+}
+
+// 5. forEach() se access karna
+users.forEach(val => {
+    // console.log(val.name, val.age);
+})
+
+// 6. map() se names ka naya array banana
+// console.log(users.map( n => n.name))
+// console.log(users.map( n => n.age))
+
+// 7. filter() se condition wale users nikalna
+// console.log(users.filter(n => n.age>17));
+
+// 8. find() se pehla matching user nikalna
+// console.log(users.find(n => n.age<=21));
+
+// x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 
 
+// Q13. Objects + `filter()` + `map()`
+let objectArr = (arr) => arr.filter(user => user.age>=18).map(user => user.name)
+// console.log(objectArr([ 
+    // { name: "Aman", age: 17 }, 
+    // { name: "Kartik", age: 20 }, 
+    // { name: "Rohit", age: 22 }, 
+    // { name: "Rahul", age: 16 }
+    // ]));
+    
+//  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Level 4 — Real Problem Solving ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Q14. Product Data Challenge
+let electronicSorting = (arr) => arr.filter(n => n.category=="electronics").map( n => n.name)
+// console.log(electronicSorting([
+//     { name: "Laptop", price: 60000, category: "electronics" },
+//     { name: "Phone", price: 30000, category: "electronics" },
+//     { name: "Shoes", price: 3000, category: "fashion" },
+//     { name: "Watch", price: 5000, category: "fashion" }
+// ]));
 
-
-
-
-
+    
+    
+    
+    
+    
+    
 
 
 
