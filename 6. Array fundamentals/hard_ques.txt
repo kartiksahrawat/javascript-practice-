@@ -223,6 +223,353 @@ console.log(productPrice([{
 ]));
 
 
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+# JavaScript Array Methods & Method Chaining:-
+**Instructions**
+    * Solve all questions using JavaScript.
+    * Do not modify the original array unless the question asks you to.
+    * For method chaining, use the appropriate combination of array methods.
+    * Predict outputs wherever required.
+    * In the mixed section, choose the methods yourself without hints.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section A: Individual Array Methods ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Q1. Add Elements to an Array
+Add 60 and 70 to the end of the given array.
+const nums = [10, 20, 30, 40, 50];
+
+
+Q2. Remove and Store the First Element
+Remove the first element from the array and store the removed value in a separate variable.
+const colors = ["red", "blue", "green"];
+
+
+Q3. Extract Elements Without Modifying the Original
+Extract the middle three elements from the array. The original array must remain unchanged.
+const nums = [10, 20, 30, 40, 50, 60, 70];
+
+
+Q4. Check Whether All Numbers Are Positive
+Check whether every number in the array is greater than zero. Return a boolean value.
+const nums = [4, 7, 12, 3, 9];
+
+
+Q5. Find the First Matching Element
+Find the first number that is greater than 100.
+const nums = [20, 80, 120, 150, 40];
+
+
+Q6. Find the Indexes of Matching Elements
+Return the indexes of all numbers that are divisible by 3.
+const nums = [3, 5, 6, 8, 9, 10];
+
+
+Q7. Calculate the Sum of an Array
+Calculate and return the sum of all numbers in the array.
+const nums = [15, 25, 35, 45];
+
+
+Q8. Sort Without Modifying the Original Array
+Sort the numbers in descending order (largest to smallest). Store the sorted result in a new array.
+const nums = [12, 5, 100, 40, 8];
 
 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section B — Array Method Chaining ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Q9. Filter and Transform Numbers
+Select all numbers greater than 5 and return their cubes.
+const nums = [2, 6, 3, 8, 10, 4];
+Expected output:
+[216, 512, 1000]
+
+
+Q10. Filter Products by Price and Extract Names
+Find all products priced between ₹100 and ₹500 (both inclusive). Return only their names while maintaining the original order.
+const products = [
+  { name: "Pen", price: 20 },
+  { name: "Book", price: 250 },
+  { name: "Bag", price: 500 },
+  { name: "Desk", price: 900 }
+];
+Expected output:
+["Book", "Bag"]
+
+
+Q11. Calculate the Sum of Squares of Even Numbers
+Select all even numbers, calculate the square of each number, and return their total sum.
+const nums = [1, 2, 3, 4, 5, 6];
+
+
+Q12. Find the Three Highest Distinct Numbers
+Return the three largest unique numbers in descending order.
+const nums = [12, 45, 45, 7, 88, 32, 88, 67];
+
+
+Q13. Calculate the Total Price of Selected Products
+Select all products whose price is ₹500 or more and calculate their combined price.
+const products = [
+  { price: 200 },
+  { price: 700 },
+  { price: 500 },
+  { price: 1000 }
+];
+
+
+Q14. Convert and Join Strings
+Convert every word into uppercase and combine all words into a single string, separated by hyphens.
+const words = ["learn", "practice", "repeat"];
+
+
+Q15. Filter and Sort User Data
+Find all users who:
+- Are active (active: true).
+- Are older than 18 years.
+Return only their names, sorted alphabetically (A to Z).
+const users = [
+  { name: "Zara", age: 21, active: true },
+  { name: "Aman", age: 17, active: true },
+  { name: "Neha", age: 25, active: false },
+  { name: "Riya", age: 22, active: true }
+];
+
+
+Q16. Flatten and Filter a Nested Array
+Flatten the nested array completely, then return only numbers greater than 10.
+const data = [1, [12, 5], [20, [8, 15]]];
+Expected output:
+[12, 20, 15]
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section C — Output Prediction ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Instructions: Carefully analyze each code snippet and predict its exact output. Do not execute the code until you have written your answer.
+
+Q17. Understanding map() and Original Arrays
+const a = [1, 2, 3];
+const b = a.map(n => n + 1);
+console.log(a, b);
+
+
+Q18. Understanding the Initial Value of reduce()
+console.log(
+  [2, 4, 6].reduce((sum, n) => sum + n, 10)
+);
+
+
+Q19. Understanding find() When No Match Exists
+console.log(
+  [5, 10, 15].find(n => n > 20)
+);
+
+
+Q20. Combining filter() and length
+console.log(
+  [1, 2, 3, 4].filter(n => n > 2).length
+);
+
+
+Q21. Understanding sort() and Reference Equality
+const a = [3, 1, 2];
+const b = a.sort((x, y) => x - y);
+console.log(a === b);
+
+
+Q22. Combining slice() and join()
+console.log(
+  ["a", "b", "c"].slice(1).join("-")
+);
+
+
+Q23. Understanding Boolean Results from map()
+console.log(
+  [2, 3, 4].map(n => n > 2)
+);
+
+
+Q24. Understanding some()
+console.log(
+  [1, 2, 3].some(n => n > 5)
+);
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section D — Debug the Code ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Instructions: Each code snippet contains a logical or method-related mistake. Identify the issue, correct the code, and explain why the original code was incorrect.
+
+Q25. Incorrect Use of forEach()
+The developer wants to double every number and store the resulting array. However, the result is undefined.
+const nums = [1, 2, 3];
+const result = nums.forEach(n => n * 2);
+console.log(result);
+
+
+Q26. Incorrect Numerical Sorting
+The developer wants to sort the numbers in ascending numerical order, but the output is incorrect.
+const nums = [2, 100, 15, 3];
+nums.sort();
+console.log(nums);
+
+
+Q27. Incorrect Use of find()
+The developer wants to retrieve all numbers greater than 10, but the code returns only one number.
+const nums = [12, 15, 20, 5];
+const result = nums.find(n => n > 10);
+console.log(result);
+
+
+Q28. Missing Initial Value in reduce()
+Correct the code so that it calculates the sum of all numbers and also works correctly when the array is empty.
+const nums = [10, 20, 30];
+const total = nums.reduce((sum, n) => sum + n);
+console.log(total);
+
+
+Q29. Incorrect Method for Removing the First Element
+The developer wants to remove the first element but has used the wrong array method.
+const colors = ["red", "blue", "green"];
+colors.pop();
+console.log(colors);
+
+
+Q30. Accidental Modification of the Original Array
+The developer wants to create a new sorted array in ascending order while keeping the original array unchanged.
+Correct the code.
+const nums = [5, 1, 4, 2];
+const result = nums.sort((a, b) => a - b);
+console.log(nums);
+console.log(result);
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section E — Mixed Real-World Challenges ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section E — Mixed Real-World Challenges ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Instructions: These questions test your ability to analyze a problem and select the correct array methods independently. There are no method hints. Focus on writing clean, readable and efficient code.
+
+Q31. Employee Salary Report
+Given the following employee data:
+const employees = [
+  { name: "Aman", salary: 30000 },
+  { name: "Riya", salary: 55000 },
+  { name: "Neha", salary: 45000 },
+  { name: "Kabir", salary: 70000 }
+];
+Return the names of employees earning more than ₹40,000, arranged from the highest salary to the lowest salary.
+
+
+Q32. Shopping Cart Discount Calculator
+Given the shopping cart:
+const cart = [
+  { name: "Shirt", price: 1000, qty: 2 },
+  { name: "Shoes", price: 2500, qty: 1 },
+  { name: "Cap", price: 300, qty: 3 }
+];
+Calculate the final cart value after applying a 10% discount to each item's price.
+Remember to consider the quantity of each item.
+
+
+Q33. Find Common Elements Between Two Arrays
+const a = [1, 2, 3, 4, 5];
+const b = [3, 4, 5, 6, 7];
+Return a new array containing only the elements that appear in both arrays.
+
+
+Q34. Word Length and Sorting Challenge
+const words = [
+  "JavaScript", "is", "very",
+  "powerful", "and", "useful"
+];
+Return all words containing more than four characters. Convert them into uppercase and sort them alphabetically.
+
+
+Q35. Count Passed and Failed Students
+const marks = [80, 25, 65, 30, 90, 45, 20];
+A student passes if their marks are greater than or equal to 35.
+Return an object containing the total number of passed and failed students.
+Expected output:
+{
+  passed: 4,
+  failed: 3
+}
+
+
+Q36. Find the Cheapest Product Available in Stock
+const products = [
+  { name: "Phone", price: 15000, stock: 0 },
+  { name: "Mouse", price: 500, stock: 10 },
+  { name: "Keyboard", price: 900, stock: 4 },
+  { name: "Cable", price: 200, stock: 20 }
+];
+Find and return the cheapest product whose stock is greater than zero.
+
+
+Q37. Bank Transaction Analysis
+const transactions = [
+  500, -100, 2000, -300, 1500, -50
+];
+Positive values represent income, while negative values represent expenses.
+Calculate and return:
+1. Total income.
+2. Total expenses as a positive number.
+3. Final account balance after all transactions.
+
+
+Q38. Extract Unique Tags from Posts
+const posts = [
+  { tags: ["js", "web"] },
+  { tags: ["web", "css"] },
+  { tags: ["js", "html"] }
+];
+Combine all tags into a single array and remove duplicate tags.
+
+
+Q39. Find the Top Three Students
+const students = [
+  { name: "Aman", marks: 75 },
+  { name: "Riya", marks: 95 },
+  { name: "Kabir", marks: 82 },
+  { name: "Neha", marks: 88 },
+  { name: "Zoya", marks: 91 }
+];
+Return the top three student objects, arranged from highest marks to lowest marks.
+
+
+Q40. Create a Frequency Map
+const nums = [2, 3, 2, 5, 3, 2, 5, 8];
+Count how many times each number appears and return the result as an object.
+Expected output:
+{
+  2: 3,
+  3: 2,
+  5: 2,
+  8: 1
+}
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section F — Bonus Challenges ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Instructions: These problems require stronger logical thinking and a combination of array methods. Try to solve them without looking up solutions.
+
+Q41. Find the Second-Highest Distinct Number
+Given an array of numbers, return the second-highest distinct number without using the sort() method.
+
+
+Q42. Calculate the Average Marks of Passed Students
+Given an array of student objects, return the average marks of students who passed.
+
+
+Q43. Extract and Sort Unique Words
+Given an array of sentences:
+- Extract all individual words.
+- Ignore differences between uppercase and lowercase.
+- Remove duplicate words.
+- Return all unique words in alphabetical order.
+
+
+Q44. Flatten and Calculate the Sum of Even Numbers
+Given a nested array of numbers:
+- Flatten the array completely.
+- Select only even numbers.
+- Calculate their total sum.
+
+
+Q45. Find the Most Common Product Category
+Given an array of product objects, return the category that contains the highest number of products.
