@@ -59,3 +59,170 @@ Restrictions:
 - No sorting.
 - No Math.max() or Math.min().
 - Handle duplicate values and negative numbers.
+
+
+
+Q6. from array find indexes of all number divisible by 3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Q7. find product that are less than 20
+let productPrice = (arr) => arr.sort((a,b) => b.discountPercentage-a.discountPercentage).map(n => {return {title:n.title, id:n.id}})
+console.log(productPrice([{
+    id: 1,
+    title: "Essence Mascara Lash Princess",
+    category: "beauty",
+    price: 9.99,
+    discountPercentage: 10.48,
+    rating: 2.56,
+    stock: 99,
+    warrantyInformation: "1 week warranty",
+    shippingInformation: "Ships in 3-5 business days",
+    availabilityStatus: "In Stock",
+    returnPolicy: "No return policy",
+    minimumOrderQuantity: 48
+  },
+  {
+    id: 2,
+    title: "Eyeshadow Palette with Mirror",
+    category: "beauty",
+    price: 19.99,
+    discountPercentage: 18.19,
+    rating: 2.86,
+    stock: 34,
+    warrantyInformation: "1 year warranty",
+    shippingInformation: "Ships in 2 weeks",
+    availabilityStatus: "In Stock",
+    returnPolicy: "7 days return policy",
+    minimumOrderQuantity: 20
+  },
+  {
+    id: 3,
+    title: "Powder Canister",
+    category: "beauty",
+    price: 14.99,
+    discountPercentage: 9.84,
+    rating: 4.64,
+    stock: 89,
+    warrantyInformation: "3 months warranty",
+    shippingInformation: "Ships in 1-2 business days",
+    availabilityStatus: "In Stock",
+    returnPolicy: "No return policy",
+    minimumOrderQuantity: 22
+  },
+  {
+    id: 4,
+    title: "Red Lipstick",
+    category: "beauty",
+    price: 12.99,
+    discountPercentage: 12.16,
+    rating: 4.36,
+    stock: 91,
+    warrantyInformation: "3 year warranty",
+    shippingInformation: "Ships in 1 week",
+    availabilityStatus: "In Stock",
+    returnPolicy: "7 days return policy",
+    minimumOrderQuantity: 40
+  },
+  {
+    id: 5,
+    title: "Red Nail Polish",
+    category: "beauty",
+    price: 8.99,
+    discountPercentage: 11.44,
+    rating: 4.32,
+    stock: 79,
+    warrantyInformation: "1 month warranty",
+    shippingInformation: "Ships overnight",
+    availabilityStatus: "In Stock",
+    returnPolicy: "No return policy",
+    minimumOrderQuantity: 22
+  },
+  {
+    id: 6,
+    title: "Calvin Klein CK One",
+    category: "fragrances",
+    price: 49.99,
+    discountPercentage: 1.89,
+    rating: 4.37,
+    stock: 29,
+    warrantyInformation: "1 week warranty",
+    shippingInformation: "Ships overnight",
+    availabilityStatus: "In Stock",
+    returnPolicy: "90 days return policy",
+    minimumOrderQuantity: 9
+  },
+  {
+    id: 7,
+    title: "Chanel Coco Noir Eau De",
+    category: "fragrances",
+    price: 129.99,
+    discountPercentage: 16.51,
+    rating: 4.26,
+    stock: 58,
+    warrantyInformation: "3 year warranty",
+    shippingInformation: "Ships overnight",
+    availabilityStatus: "In Stock",
+    returnPolicy: "No return policy",
+    minimumOrderQuantity: 1
+  },
+  {
+    id: 8,
+    title: "Dior J'adore",
+    category: "fragrances",
+    price: 89.99,
+    discountPercentage: 14.72,
+    rating: 3.8,
+    stock: 98,
+    warrantyInformation: "1 week warranty",
+    shippingInformation: "Ships in 2 weeks",
+    availabilityStatus: "In Stock",
+    returnPolicy: "7 days return policy",
+    minimumOrderQuantity: 10
+  },
+  {
+    id: 9,
+    title: "Dolce Shine Eau de",
+    category: "fragrances",
+    price: 69.99,
+    discountPercentage: 0.62,
+    rating: 3.96,
+    stock: 4,
+    warrantyInformation: "3 year warranty",
+    shippingInformation: "Ships in 1 month",
+    availabilityStatus: "Low Stock",
+    returnPolicy: "7 days return policy",
+    minimumOrderQuantity: 2
+  },
+  {
+    id: 10,
+    title: "Gucci Bloom Eau de",
+    category: "fragrances",
+    price: 79.99,
+    discountPercentage: 14.39,
+    rating: 2.74,
+    stock: 91,
+    warrantyInformation: "6 months warranty",
+    shippingInformation: "Ships overnight",
+    availabilityStatus: "In Stock",
+    returnPolicy: "No return policy",
+    minimumOrderQuantity: 2
+  },
+  {
+    id: 11,
+    title: "Annibale Colombo Bed",
+    category: "furniture",
+    price: 1899.99,
+    discountPercentage: 8.57,
+    rating: 4.77,
+    stock: 88,
+    warrantyInformation: "1 year warranty",
+    shippingInformation: "Ships in 1 month",
+    availabilityStatus: "In Stock",
+    returnPolicy: "No return policy",
+    minimumOrderQuantity: 1
+  }
+]));
+
+
+
+
+
