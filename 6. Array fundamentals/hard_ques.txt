@@ -1,0 +1,61 @@
+Next 5 hardest questions — Arrays 🔥
+These are targeted at the next level, not repetitions of your previous 15 questions.
+
+Q1. Remove Duplicates~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let arr = [10, 20, 10, 30, 20, 40, 30, 50];
+Create a new array containing only unique elements.
+Expected output:
+[10, 20, 30, 40, 50]
+Restriction: Don't use Set.
+
+
+
+Q2. Rotate Array by K Positions~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let arr = [1, 2, 3, 4, 5, 6, 7];
+let k = 3;
+Rotate the array right by 3 positions.
+Expected output:
+[5, 6, 7, 1, 2, 3, 4]
+Handle k greater than array length.
+
+
+
+Q3. Find Common Elements~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let a = [10, 20, 30, 40, 50];
+let b = [30, 40, 50, 60, 70];
+Return common elements without duplicates.
+Expected output:
+[30, 40, 50]
+
+
+
+Q4. Move All Zeros to the End~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let arr = [0, 1, 0, 3, 12, 0, 5];
+Expected output:
+[1, 3, 12, 5, 0, 0, 0]
+Conditions:
+- Preserve the relative order of non-zero elements.
+- Don't use sorting.
+- Try to modify the original array.
+
+
+
+Q5. Second Largest and Second Smallest~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let arr = [10, 5, 20, 8, 20, 3, 5, 15];
+Return:
+- Second-largest distinct element.
+- Second-smallest distinct element.
+Expected output:
+{
+  secondLargest: 15,
+  secondSmallest: 5
+}
+Restrictions:
+- No sorting.
+- No Math.max() or Math.min().
+- Handle duplicate values and negative numbers.

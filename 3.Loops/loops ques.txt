@@ -132,3 +132,44 @@ text
 123
 1234
 12345
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Some hardest shits...
+Q1. Second Largest Element in an Array
+Array mein se second-largest distinct number find karo.
+- Sorting use nahi karni.
+- Single for loop use karna.
+- Negative numbers aur duplicate values handle karna.
+- Agar second-largest distinct number exist nahi karta, appropriate message print karo.
+
+
+Q2. Reverse an Array In-Place
+Array ko reverse karo without creating another array.
+- Single for loop.
+- reverse() method use nahi karna.
+- Extra array nahi banana.
+
+
+Q3. Frequency of Every Element
+Given array mein har unique element kitni baar present hai, print karo.
+Example: [2, 3, 2, 5, 3, 2, 5, 7]
+Expected output:
+- 2 → 3 times
+- 3 → 2 times
+- 5 → 2 times
+- 7 → 1 time
+
+
+Q4. Largest and Smallest Digit
+User se ek number lo aur uska largest aur smallest digit find karo.
+- Number mein zero ho sakta hai.
+- Negative number bhi handle karo.
+- Number 0 ho toh output correctly handle hona chahiye.
+
+
+Q5. Fibonacci Series — Advanced
+First N Fibonacci numbers print karo aur saath mein:
+- Total sum calculate karo.
+- Even Fibonacci numbers ka count calculate karo.
+- Largest Fibonacci number identify karo.

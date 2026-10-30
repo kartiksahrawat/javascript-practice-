@@ -1,0 +1,61 @@
+5. Next 5 hardest questions — Functions 🔥
+These are selected specifically around your weak areas.
+
+Q1. Robust Number Analyzer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create analyzeNumber(num).
+
+Return an object containing:
+- isPositive
+- isEven
+- digitCount
+- digitSum
+- largestDigit
+- smallestDigit
+Handle zero and negative numbers.
+
+
+Q2. Second Largest Distinct Element~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create secondLargest(arr).
+
+Conditions:
+- No sorting.
+- No Math.max().
+- Duplicate values must be ignored when finding the second-largest distinct value.
+- Handle empty arrays and arrays without a second distinct element.
+
+
+Q3. Custom Array Processor~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create processArray(arr, callback).
+- The function should apply the callback to every element.
+- Return a new array.
+- Don't use map().
+- Test it with square, double and cube operations.
+
+
+Q4. Advanced Student Analyzer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create analyzeStudents(students).
+Example input:
+[
+  {name: "A", marks: 90},
+  {name: "B", marks: 65},
+  {name: "C", marks: 95},
+  {name: "D", marks: 75}
+]
+
+Return an object containing:
+- Names of students scoring above 80.
+- Highest marks.
+- Average marks.
+- Count of students who passed (marks >= 40).
+Use functions and array methods.
+
+
+Q5. Advanced HOF Calculator~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create a function: calculate(arr, operation)
+It should accept an array and a callback operation.
+
+Test these operations:
+- Sum of all elements.
+- Product of all elements.
+- Maximum element.
+- Count of even elements.

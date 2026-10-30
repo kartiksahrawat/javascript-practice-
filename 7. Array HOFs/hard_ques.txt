@@ -1,0 +1,88 @@
+Next 5 hardest questions — Array HOFs 🔥
+These are targeted at your improvement areas.
+
+Q1. Employee Salary Analyzer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+let employees = [
+  {name: "A", salary: 25000, department: "IT"},
+  {name: "B", salary: 40000, department: "HR"},
+  {name: "C", salary: 60000, department: "IT"},
+  {name: "D", salary: 35000, department: "IT"},
+  {name: "E", salary: 70000, department: "HR"}
+];
+
+Return an object containing:
+- Names of IT employees.
+- IT employees earning more than ₹30,000.
+- Average salary of IT employees.
+- Highest salary among IT employees.
+
+
+
+
+Q2. Nested HOF Challenge~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let students = [
+  {name: "A", marks: [80, 90, 70]},
+  {name: "B", marks: [60, 55, 65]},
+  {name: "C", marks: [95, 90, 100]},
+  {name: "D", marks: [40, 50, 45]}
+];
+
+Return names of students whose average marks are at least 80.
+Use HOFs. No traditional loops.
+
+
+
+
+Q3. Frequency Counter Using HOFs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let arr = [2, 3, 2, 5, 3, 2, 5, 7];
+
+Return an object:
+{
+  2: 3,
+  3: 2,
+  5: 2,
+  7: 1
+}
+
+Use reduce().
+
+
+
+
+Q4. Advanced find() + some() + every()~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let products = [
+  {name: "Laptop", price: 60000, stock: 5},
+  {name: "Phone", price: 30000, stock: 0},
+  {name: "Watch", price: 5000, stock: 10}
+];
+
+Return an object containing:
+- First product costing more than ₹10,000.
+- Whether any product is out of stock.
+- Whether every product has stock greater than zero.
+Use the appropriate HOF for each task.
+
+
+
+
+Q5. Ultimate HOF Challenge~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let students = [
+  {name: "Aman", marks: 72},
+  {name: "Kartik", marks: 91},
+  {name: "Rohit", marks: 85},
+  {name: "Rahul", marks: 64},
+  {name: "Arjun", marks: 95}
+];
+
+Create analyzeStudents(students) returning:
+- Names of students scoring 80 or more.
+- Their total marks.
+- Their average marks.
+- Highest scorer's name.
+- Whether any student scored 95 or more.
+- Count of students who failed (marks below 40).
+Handle an empty array and cases where no student qualifies.

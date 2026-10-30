@@ -1,0 +1,110 @@
+Next 5 hardest questions — Objects 🔥
+
+Q1. Nested Object Update and Analysis~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let student = {
+  name: "Kartik",
+  marks: {
+    maths: 85,
+    science: 90,
+    english: 75
+  }
+};
+
+Create a function that:
+- Updates science marks to 95.
+- Adds a new property computer: 98.
+- Calculates total marks.
+- Calculates average marks.
+- Returns the updated object with total and average.
+
+
+
+
+Q2. Shallow Copy — Reference Challenge~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let user = {
+  name: "Kartik",
+  address: {
+    city: "Gurugram"
+  },
+  skills: {
+    frontend: "JavaScript"
+  }
+};
+
+1. Create a shallow copy.
+2. Change copied name.
+3. Change copied address city.
+4. Add a new skill inside the copied object.
+5. Predict which changes affect the original object.
+Explain why.
+
+
+
+
+Q3. Object Merge with Conflict Handling~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let obj1 = {
+  name: "Kartik",
+  age: 20,
+  city: "Delhi"
+};
+
+let obj2 = {
+  age: 21,
+  city: "Gurugram",
+  course: "BTech"
+};
+
+Create a new object where:
+- All properties from both objects are included.
+- In case of duplicate keys, obj2 values should win.
+- Original objects must remain unchanged.
+Use both spread and Object.assign().
+
+
+
+
+Q4. Dynamic Object Property Counter~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let arr = ["apple", "banana", "apple", "orange", "banana", "apple"];
+Create an object containing the frequency of each fruit.
+Expected:
+{
+  apple: 3,
+  banana: 2,
+  orange: 1
+}
+Use computed property access or dynamic object keys.
+
+
+
+
+Q5. Ultimate Nested Object Challenge~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Given:
+let users = [
+  {
+    name: "Aman",
+    address: { city: "Delhi" },
+    skills: ["HTML", "CSS"]
+  },
+  {
+    name: "Kartik",
+    address: { city: "Gurugram" },
+    skills: ["JavaScript", "React"]
+  },
+  {
+    name: "Rohit",
+    address: { city: "Delhi" },
+    skills: ["Python", "JavaScript"]
+  }
+];
+
+Perform these operations:
+1. Print all user names.
+2. Find users living in Delhi.
+3. Find users having JavaScript in their skills.
+4. Create a new array containing only names and cities.
+5. Create a shallow copy of the users array.
+6. Safely access a potentially missing property using optional chaining.

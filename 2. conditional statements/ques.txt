@@ -308,3 +308,59 @@ Take age and day. Price: below 12 = ₹100, 12–59 = ₹200, 60+ = ₹120. Add 
 
 Q29. Employee Promotion
 Take performance rating, attendance, and experience. Employee qualifies if rating >= 4, attendance >= 90%, and experience >= 3 years.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Difficulty: Hardest Level — Conditional Statements
+
+Q1. Second Largest Number (Without Sorting)
+Three numbers a, b, c input lo aur second-largest number print karo.
+Conditions:
+- Sorting use nahi karni.
+- Numbers equal ho sakte hain.
+- Agar teeno numbers equal hain, print "All numbers are equal".
+- Agar sirf do numbers equal hain, correct second-largest identify karna hai.
+
+
+Q2. Leap Year + Century Logic
+User se year input lo aur check karo ki year leap year hai ya nahi.
+Conditions:
+- 2024 → Leap Year
+- 1900 → Not a Leap Year
+- 2000 → Leap Year
+- 2100 → Not a Leap Year
+- Invalid year (0 ya negative) → "Invalid Year"
+
+
+Q3. Password Validation System
+User se password input lo.
+Password tabhi valid hoga jab:
+- Minimum 8 characters hon.
+- At least 1 uppercase letter ho.
+- At least 1 lowercase letter ho.
+- At least 1 digit ho.
+- At least 1 special character ho (@, #, $, !).
+Output: "Strong Password" ya "Weak Password".
+Hint: Abhi sirf conditionals use karo. Regex nahi.
+
+
+Q4. Valid Date Checker
+User se day, month, year input lo aur valid date check karo.
+Examples:
+- 29/02/2024 → Valid
+- 29/02/2023 → Invalid
+- 31/04/2025 → Invalid
+- 31/12/2025 → Valid
+- 32/01/2025 → Invalid
+Leap year ka logic bhi implement karna hai. February ke 28/29 days aur har month ke maximum days ka dhyan rakhna.
+
+
+Q5. Greatest Among Four Numbers — Tie Handling
+Four numbers a, b, c, d input lo.
+Conditions:
+- Greatest number print karo.
+- Agar multiple numbers greatest hain, toh unki count bhi print karo.
+- Agar all four equal hain, toh "All numbers are equal" print karo.
+Example: 10, 25, 25, 15
+Output:
+- Greatest: 25
+- Occurrences: 2
