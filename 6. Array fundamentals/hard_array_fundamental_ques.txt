@@ -343,43 +343,43 @@ Expected output:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section C — Output Prediction ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Instructions: Carefully analyze each code snippet and predict its exact output. Do not execute the code until you have written your answer.
 
-Q17. Understanding map() and Original Arrays
+Q17. Understanding map() and Original Arrays👍👍👍👍👍👍👍
 const a = [1, 2, 3];
 const b = a.map(n => n + 1);
 console.log(a, b);
 
 
-Q18. Understanding the Initial Value of reduce()
+Q18. Understanding the Initial Value of reduce()👍👍👍👍👍👍👍
 console.log(
   [2, 4, 6].reduce((sum, n) => sum + n, 10)
 );
 
 
-Q19. Understanding find() When No Match Exists
+Q19. Understanding find() When No Match Exists💔💔💔💔💔💔💔
 console.log(
   [5, 10, 15].find(n => n > 20)
 );
 
 
-Q20. Combining filter() and length
+Q20. Combining filter() and length👍👍👍👍👍👍👍
 console.log(
   [1, 2, 3, 4].filter(n => n > 2).length
 );
 
 
-Q21. Understanding sort() and Reference Equality
+Q21. Understanding sort() and Reference Equality💔💔💔💔💔💔💔
 const a = [3, 1, 2];
 const b = a.sort((x, y) => x - y);
 console.log(a === b);
 
 
-Q22. Combining slice() and join()
+Q22. Combining slice() and join()💔💔💔💔💔💔💔
 console.log(
   ["a", "b", "c"].slice(1).join("-")
 );
 
 
-Q23. Understanding Boolean Results from map()
+Q23. Understanding Boolean Results from map()💔💔💔💔💔💔💔
 console.log(
   [2, 3, 4].map(n => n > 2)
 );

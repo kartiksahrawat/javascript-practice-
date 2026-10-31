@@ -109,7 +109,54 @@
 // console.log(flat([1, [12, 5], [20, [8, 15]]]));
 
 
+// ~~~~~~~~~~~~~~~~ Section C — Output Prediction ~~~~~~~~~~~~~~~~
+// Q17. Understanding map() and Original Arrays?
+// const a = [1, 2, 3];
+// const b = a.map(n => n + 1);
+// console.log(a, b);
+// ----> Right Predicition:- [ 1, 2, 3 ] [ 2, 3, 4 ]
 
+// Q18. Understanding the Initial Value of reduce()
+// console.log(
+//   [2, 4, 6].reduce((sum, n) => sum + n, 10)
+// );
+// ----> Right Predicition:- 22
+
+// Q19. Understanding find() When No Match Exists
+// console.log(
+//   [5, 10, 15].find(n => n > 20)
+// );
+// ----> Wrong Predicition:- false ~~ correct answer:- undefined
+
+// Q20. Combining filter() and length
+// console.log(
+//   [1, 2, 3, 4].filter(n => n > 2).length
+// );
+// ----> Right Predicition:- 2
+
+// Q21. Understanding sort() and Reference Equality
+// const a = [3, 1, 2];
+// const b = a.sort((x, y) => x - y);
+// console.log(a === b);
+// ----> Right Predicition:- false ~~ correct ans:- true hoga bcos jo sort hai vo original array ko modify krta hai and usi ko return bhi kar deta hai 
+
+// 22. Combining slice() and join()
+// console.log(
+//     ["a", "b", "c"].slice(1).join("-")
+// );
+// ----> Right Predicition:- b- ~~ correct ans:- b-c
+
+// Q23. Understanding Boolean Results from map()
+// console.log(
+//     [2, 3, 4].map(n => n > 2)
+// );
+// ----> Right Predicition:- [3,4] ~~ correct ans:- [ false, true, true ]
+
+// Q24. Understanding some()
+// console.log(
+//   [1, 2, 3].some(n => n > 5)
+// );
+// ----> Right Predicition:- undefined ~~ correct ans:- false
 
 
 
