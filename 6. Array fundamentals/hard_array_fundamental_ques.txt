@@ -233,56 +233,56 @@ console.log(productPrice([{
     * In the mixed section, choose the methods yourself without hints.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section A: Individual Array Methods ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Q1. Add Elements to an Array
+Q1. Add Elements to an Array👍👍👍👍👍👍👍
 Add 60 and 70 to the end of the given array.
 const nums = [10, 20, 30, 40, 50];
 
 
-Q2. Remove and Store the First Element
+Q2. Remove and Store the First Element👍👍👍👍👍👍👍
 Remove the first element from the array and store the removed value in a separate variable.
 const colors = ["red", "blue", "green"];
 
 
-Q3. Extract Elements Without Modifying the Original
+Q3. Extract Elements Without Modifying the Original👍👍👍👍👍👍👍
 Extract the middle three elements from the array. The original array must remain unchanged.
 const nums = [10, 20, 30, 40, 50, 60, 70];
 
 
-Q4. Check Whether All Numbers Are Positive
+Q4. Check Whether All Numbers Are Positive👍👍👍👍👍👍👍
 Check whether every number in the array is greater than zero. Return a boolean value.
 const nums = [4, 7, 12, 3, 9];
 
 
-Q5. Find the First Matching Element
+Q5. Find the First Matching Element👍👍👍👍👍👍👍
 Find the first number that is greater than 100.
 const nums = [20, 80, 120, 150, 40];
 
 
-Q6. Find the Indexes of Matching Elements
+Q6. Find the Indexes of Matching Elements👍👍👍👍👍👍👍
 Return the indexes of all numbers that are divisible by 3.
 const nums = [3, 5, 6, 8, 9, 10];
 
 
-Q7. Calculate the Sum of an Array
+Q7. Calculate the Sum of an Array👍👍👍👍👍👍👍
 Calculate and return the sum of all numbers in the array.
 const nums = [15, 25, 35, 45];
 
 
-Q8. Sort Without Modifying the Original Array
+Q8. Sort Without Modifying the Original Array👍👍👍👍👍👍👍
 Sort the numbers in descending order (largest to smallest). Store the sorted result in a new array.
 const nums = [12, 5, 100, 40, 8];
 
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section B — Array Method Chaining ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Q9. Filter and Transform Numbers
+Q9. Filter and Transform Numbers👍👍👍👍👍👍👍
 Select all numbers greater than 5 and return their cubes.
 const nums = [2, 6, 3, 8, 10, 4];
 Expected output:
 [216, 512, 1000]
 
 
-Q10. Filter Products by Price and Extract Names
+Q10. Filter Products by Price and Extract Names👍👍👍👍👍👍👍
 Find all products priced between ₹100 and ₹500 (both inclusive). Return only their names while maintaining the original order.
 const products = [
   { name: "Pen", price: 20 },
@@ -294,17 +294,17 @@ Expected output:
 ["Book", "Bag"]
 
 
-Q11. Calculate the Sum of Squares of Even Numbers
+Q11. Calculate the Sum of Squares of Even Numbers👍👍👍👍👍👍👍
 Select all even numbers, calculate the square of each number, and return their total sum.
 const nums = [1, 2, 3, 4, 5, 6];
 
 
-Q12. Find the Three Highest Distinct Numbers
+Q12. Find the Three Highest Distinct Numbers💔💔💔💔💔💔💔
 Return the three largest unique numbers in descending order.
 const nums = [12, 45, 45, 7, 88, 32, 88, 67];
 
 
-Q13. Calculate the Total Price of Selected Products
+Q13. Calculate the Total Price of Selected Products👍👍👍👍👍👍👍
 Select all products whose price is ₹500 or more and calculate their combined price.
 const products = [
   { price: 200 },
@@ -314,12 +314,12 @@ const products = [
 ];
 
 
-Q14. Convert and Join Strings
+Q14. Convert and Join Strings👍👍👍👍👍👍👍
 Convert every word into uppercase and combine all words into a single string, separated by hyphens.
 const words = ["learn", "practice", "repeat"];
 
 
-Q15. Filter and Sort User Data
+Q15. Filter and Sort User Data💔💔💔💔💔💔💔
 Find all users who:
 - Are active (active: true).
 - Are older than 18 years.
@@ -332,7 +332,7 @@ const users = [
 ];
 
 
-Q16. Flatten and Filter a Nested Array
+Q16. Flatten and Filter a Nested Array👍👍👍👍👍👍👍
 Flatten the nested array completely, then return only numbers greater than 10.
 const data = [1, [12, 5], [20, [8, 15]]];
 Expected output:

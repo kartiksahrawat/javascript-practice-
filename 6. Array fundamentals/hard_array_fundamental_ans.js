@@ -44,4 +44,72 @@
 // let sortDes = (arr)=> arr.sort((a,b) => b-a).map(n=>n)
 // console.log(sortDes([12, 5, 100, 40, 8]));
 
+// ~~~~~~~~~~~~~~~~ Section B — Array Method Chaining ~~~~~~~~~~~~~~~~
+// 9. Select all numbers greater than 5 and return their cubes.
+// let selectCube = (arr) => arr.filter(n=> n>5).map(n=>n**3)
+// console.log(selectCube([2, 6, 3, 8, 10, 4]));
+
+// 10. Find all products priced between ₹100 and ₹500. Return only their names while maintaining the original order.
+// let select = (arr) => arr.filter(n => n.price>=100 && n.price<=500).map(n=>n.name)
+// console.log(select([
+//   { name: "Pen", price: 20 },
+//   { name: "Book", price: 250 },
+//   { name: "Bag", price: 500 },
+//   { name: "Desk", price: 900 }
+// ]));
+
+// 11. Select all even numbers, calculate the square of each number, and return their total sum.
+// let select = (arr) => arr.filter(n => n%2==0).map(n=>n**2).reduce((a,b)=>a+b,0)
+// console.log(select([1, 2, 3, 4, 5, 6]));
+
+// 12. Return the three largest unique numbers in descending order.
+// ----> This is the ...new Set method
+// ----> Set ka main kaam, duplicate val hata dena and only unique store karna  
+// const set = (arr) => {
+//     return [...new Set(arr)]
+//     .sort((a,b)=> b-a)
+//     .slice(0,3)
+// }
+// console.log(set([12, 45, 45, 7, 88, 32, 88, 67]));
+
+// ----> if Set ka use nhi krna only array methods ka use krna hai then:-
+// let arrange = (arr) => {
+//     return arr
+//     .filter((a,b) => arr.indexOf(a)===b)
+//     .sort((a,b)=>b-a)
+//     .slice(0,3)
+// }
+// console.log(arrange([12, 45, 45, 7, 88, 32, 88, 67]));
+
+// 13. Select all products whose price is ₹500 or more and calculate their combined price.
+// let proPrice = (arr) => arr.filter(n=>n.price>=500).map(n=>n.price).reduce((a,b)=>a+b,0)
+// console.log(proPrice([
+//   { price: 200 },
+//   { price: 700 },
+//   { price: 500 },
+//   { price: 1000 }
+// ]));
+
+// 14. Convert every word into uppercase and combine all words into a single string, separated by hyphens.
+// let ArrToStr = (arr) => arr.join("-").toUpperCase()
+// console.log(ArrToStr(["learn", "practice", "repeat"]));
+
+// 15. Find all users who:- Are active (active: true) - Are older than 18 years.
+// Return only their names, sorted alphabetically (A to Z)
+// let sort = (arr) => arr.filter(n=>n.active && n.age>18).map(n=>n.name).sort()
+// console.log(sort([
+//   { name: "Zara", age: 21, active: true },
+//   { name: "Aman", age: 17, active: true },
+//   { name: "Neha", age: 25, active: false },
+//   { name: "Riya", age: 22, active: true }
+// ]));
+
+// 16. Flatten the nested array completely, then return only numbers greater than 10.
+// let flat = (arr)=> arr.flat(Infinity).filter(n=>n>10)
+// console.log(flat([1, [12, 5], [20, [8, 15]]]));
+
+
+
+
+
 
